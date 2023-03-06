@@ -107,6 +107,37 @@ section
     top: 20%;
     animation-delay: .3s;
 }
+.scroll-up
+{
+    height: 50px;
+    width: 30px;
+    border: 2px solid #fff;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.scroll-up:before,.scroll-up:after
+{
+    content: '';
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    border: 2px solid #fff;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -40%) rotate(45deg);
+    border-bottom: transparent;
+    border-right: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+    animation-direction: reverse;
+}
+.scroll-up:after
+{
+    top: 20%;
+    animation-delay: .3s;
+}
 .fitBg
 {
     position: absolute;
@@ -297,15 +328,27 @@ section
     font-weight: 300;
     opacity: 0.5;
 }
-.btn
+.btn-right
 {
-    position: relative;
-    display: inline-block;
+    position: fixed;
     background-color: #fff;
     color: #000;
     text-decoration: none;
-    margin-top: 30px;
-    padding: 10px 30px;
+    padding: 10px 25px;
+    bottom: 5%;
+    right: 5%;
+    z-index: 100;
+}
+.btn-left
+{
+    position: fixed;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 25px;
+    bottom: 5%;
+    left: 5%;
+    z-index: 100;
 }
 .footer
 {

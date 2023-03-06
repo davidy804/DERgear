@@ -3,27 +3,13 @@
       <h2 class="titleText">main</h2>
   </div>
   <div class="mainList">
+    <div *ngFor="let main of mains">
       <div class="box">
           <div class="imgBx">
-              <a href="main"><img src="images/main1.png" class="fitImg"></a>
-          </div>
-          <div class="content">
-              <h2>1<br><span>description</span></h2>
-          </div>
-      </div>
-      <div class="box">
-          <div class="imgBx">
-              <a href="main2.html"><img src="images/main2.png" class="fitImg"></a>
-          </div>
-          <div class="content">
-              <h2>2<br><span>description2</span></h2>
+              <a routerLink="/details/{{main.id}}" routerLinkActive="active"><img src="{{main.imgSrc}}" class="fitImg"></a>
+              <div class="content" style="position: absolute; bottom: 0;">
+                <h2>{{main.name}}<br><span>{{main.description}}</span></h2>
+            </div>
           </div>
       </div>
-      <div class="box">
-          <div class="imgBx">
-              <a href="main3.html"><img src="images/main3.png" class="fitImg"></a>
-          </div>
-          <div class="content">
-              <h2>3<br><span>description3</span></h2>
-          </div>
-      </div>
+    </div>
