@@ -1,0 +1,15 @@
+<section class="main" id="main">
+  <div class="mainText">
+      <h2 class="titleText">main</h2>
+  </div>
+  <div class="mainList">
+    <div *ngFor="let main of mains">
+      <div class="box">
+          <div class="imgBx">
+              <a routerLink="/details/{{main.id}}" routerLinkActive="active"><img src="{{main.imgSrc}}" class="fitImg"></a>
+              <div class="content" style="position: absolute; bottom: 0;">
+                <h2>{{main.name}}<br><span>{{main.description}}</span></h2>
+            </div>
+          </div>
+      </div>
+    </div>
