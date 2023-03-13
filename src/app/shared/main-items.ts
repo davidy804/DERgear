@@ -4,13 +4,13 @@ export const MainItems: MainModel[] = [
 {
   id: '94',
   type: 'Mouse',
-  name: 'Orochi v2',
+  name: 'Razer Orochi v2',
   description: 'Claw / Small',
   imgSrc: './assets/images/test.png',
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -23,7 +23,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -36,7 +36,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -49,7 +49,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -62,7 +62,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -75,7 +75,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -88,7 +88,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -101,7 +101,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -114,7 +114,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -127,7 +127,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -140,7 +140,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -153,7 +153,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -166,7 +166,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -179,7 +179,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -192,7 +192,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -205,7 +205,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },
@@ -218,7 +218,7 @@ export const MainItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: 'review text'
+      caption: ''
     }
   ],
 },

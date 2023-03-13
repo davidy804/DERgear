@@ -14,7 +14,7 @@ export const AllItems: MainModel[] = [
 {
   id: '94',
   type: 'Mouse',
-  name: 'Orochi v2',
+  name: 'Razer Orochi v2',
   description: 'Claw / Small',
   imgSrc: './assets/images/test.png',
   details: [
@@ -31,7 +31,7 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Conclusions:</strong> <br> This is a budget travel mouse that can be used for gaming. The bluetooth mode, AA/AAA battery, small size makes it perfect for traveling or using it with a laptop. For gaming, it is alright. It has Razer's technology (responsive sensor and optical switches). It feels like a budget mouse. The buttons are loud. The shape and coating is not comfortable and feels slippery. The removable top shell makes the mouse creak. This is my current main for FPS games because it is wireless.
       <br> <br>
-      <strong>Score:</strong> <br> 6/10
+      <strong>Score:</strong> <br> 7/10
       `
     }
   ],
@@ -73,15 +73,15 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>Specs:</strong> <br>
       <br> <br>
-      <strong>Shape:</strong> <br>
+      <strong>Shape:</strong> <br> Same shape as the Finalmouse Sunset, except the Air58 has holes on the sides. It is a great shape for large hands. Difficult to claw, but easy to palm and fingertip because of its flat sides and low back hump.
       <br> <br>
-      <strong>Buttons:</strong> <br>
+      <strong>Buttons:</strong> <br> Buttons feel the same as the Finalmouse Sunset, decent buttons. The scroll wheel is not textured and feels too smooth.
       <br> <br>
-      <strong>Value:</strong> <br>
+      <strong>Value:</strong> <br> Finalmouse value is a joke. For its market price, it is barely worth it. This version is definitely not worth it because this is the Ninja version. Never buy Finalmouse aftermarket.
       <br> <br>
-      <strong>Conclusions:</strong> <br>
+      <strong>Conclusions:</strong> <br> An outdated large mouse with Ninja's touch. Aesthetically, it looks cool. The holes on the sides make the mouse feel worse than the Finalmouse Sunset, despite being the same shape. The timing of this release makes this mouse much worse. Not technically better than anything else on the market at the time. A wired, 500hz, large, "lightweight" mouse for a premium price. <br> Summit1G (Sunset) > Ninja (Air58)
       <br> <br>
-      <strong>Score:</strong> <br>
+      <strong>Score:</strong> <br> 5/10
       `
     }
   ],
@@ -98,15 +98,15 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>Specs:</strong> <br>
       <br> <br>
-      <strong>Shape:</strong> <br>
+      <strong>Shape:</strong> <br> This is the classic egg shape. The sides are sloped inwards, which I do not like. It makes fingertipping this mouse hard.
       <br> <br>
-      <strong>Buttons:</strong> <br>
+      <strong>Buttons:</strong> <br> The buttons are very satisfying. They are clicky, light, and tactile. The scroll wheel has defined bumps, but a heavy tactile button press.
       <br> <br>
-      <strong>Value:</strong> <br>
+      <strong>Value:</strong> <br> This mouse is very cheap, but it is too old to even consider buying. It might be worth it if you can find it for ~$10.
       <br> <br>
-      <strong>Conclusions:</strong> <br>
+      <strong>Conclusions:</strong> <br> A wired, heavy, egg shaped Logitech mouse. There is nothing particularly wrong with this mouse except that it is just outdated. The wire is awful. It's heavy and does not bend well. It weighs a lot for its small size. The G305 is the wireless version of this mouse. It solves the wire issue, but it still is heavy.
       <br> <br>
-      <strong>Score:</strong> <br>
+      <strong>Score:</strong> <br> 4/10
       `
     }
   ],
@@ -123,15 +123,15 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>Specs:</strong> <br>
       <br> <br>
-      <strong>Shape:</strong> <br>
+      <strong>Shape:</strong> <br> Great shape for large hands. It's large size makes playing any sensitivity very easy because it's easy to be stable. Slight horizontal grooves on flat vertical sides makes this easy to palm and fingertip. Clawing this mouse is difficult unless you have very large hands. Having no holes on the sides makes this mouse very comfortable.
       <br> <br>
-      <strong>Buttons:</strong> <br>
+      <strong>Buttons:</strong> <br> Decent M1 and M2, mushy feeling, but clicky sound side buttons. Scroll wheel has light bumps and a light tactile button press.
       <br> <br>
-      <strong>Value:</strong> <br>
+      <strong>Value:</strong> <br> Finalmouse is not the value company. They are about innovation and uniqueness. I got this mouse for $90. It was worth it at the time. There were very few mice that were light and big. Nowadays, the technology is just too old. It's wired, 500hz, and not that light.
       <br> <br>
-      <strong>Conclusions:</strong> <br>
+      <strong>Conclusions:</strong> <br> Surprisingly, I liked this mouse despite it's large size. The flat sides allowed me to fingertip this mouse somehow on high sensitivity. The lower back hump allowed me to palm the mouse for low sensitivity. Finalmouse will never be worth the aftermarket price. Even the market price is barely worth it because the technology gets adopted by other companies within a year or two.
       <br> <br>
-      <strong>Score:</strong> <br>
+      <strong>Score:</strong> <br> 6/10
       `
     }
   ],
@@ -148,15 +148,15 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>Specs:</strong> <br>
       <br> <br>
-      <strong>Shape:</strong> <br>
+      <strong>Shape:</strong> <br> This ergo shape is loved for productivity. Despite its large size, it feels comfortable with small hands.
       <br> <br>
-      <strong>Buttons:</strong> <br>
+      <strong>Buttons:</strong> <br> Clicky, light, and tactile buttons. There are lots of additional buttons that could be used for productivity. I did not use any of the additional buttons and they did not feel in the way. The infinite scroll wheel is amazing.
       <br> <br>
-      <strong>Value:</strong> <br>
+      <strong>Value:</strong> <br> There are many different versions of this mouse. They are leaning more on the expensive side. There are better options for productivity and for gaming.
       <br> <br>
-      <strong>Conclusions:</strong> <br>
+      <strong>Conclusions:</strong> <br> The grandfather of productive gaming mice. This mouse was very good for its time, but there are better options nowadays. The shape is god tier though. I thought I preferred large mice because I liked the G502. The reality was that the shape could fit any hand size comfortably.
       <br> <br>
-      <strong>Score:</strong> <br>
+      <strong>Score:</strong> <br> 7/10
       `
     }
   ],
@@ -171,7 +171,19 @@ export const AllItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: ''
+      caption: `
+      <strong>Material:</strong> <br>
+      <br> <br>
+      <strong>Texture:</strong> <br> Smooth
+      <br> <br>
+      <strong>Performance:</strong> <br> Medium static and medium dynamic friction. Works with all games and sensitivities.
+      <br> <br>
+      <strong>Quality:</strong> <br> Lays flat, good stitching, good consistency, thick rubber base.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> An all around mousepad. Slightly more on the control side. Nothing wrong with this mousepad.
+      <br> <br>
+      <strong>Score:</strong> <br> 9/10
+      `
     }
   ],
 },
@@ -184,7 +196,19 @@ export const AllItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: ''
+      caption: `
+      <strong>Material:</strong> <br>
+      <br> <br>
+      <strong>Texture:</strong> <br> Rough
+      <br> <br>
+      <strong>Performance:</strong> <br> Low static and medium dynamic friction. Works with most games and sensitivities. Slower paced games like tac shooters are harder to make this mousepad work. Good mouse control is important with this mousepad. The micro movements are effortless because of the low static friction. This may cause instability and inconsistency if your mouse control is not good.
+      <br> <br>
+      <strong>Quality:</strong> <br> Lays flat, decent stitching, decent consistency, bad rubber base. Surface slows down eventually, even with wash. The base does not stick very well. It slides around very easily, but not while gaming.
+      <br> <br>
+      <strong>Conclusion:</strong> <br> The rubber base is the only problem with this mousepad. It's thin and slides around. My mousepad edge is starting to curl where my arm lays because my arm's heat is breaking down the rubber base. The actual performance of the mousepad is amazing.
+      <br> <br>
+      <strong>Score:</strong> <br> 8/10
+      `
     }
   ],
 },
