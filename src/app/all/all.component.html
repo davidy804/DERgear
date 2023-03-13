@@ -1,15 +1,95 @@
 <section class="main" id="all">
-  <div class="mainText">
-      <h2 class="titleText">all</h2>
+  <div class="mainText" id="top">
+      <h1 class="titleText" style="font-size: 2.5em;">All Gear</h1>
   </div>
+  <h2 class="titleText">Mice</h2>
   <div class="mainList">
     <div *ngFor="let all of alls">
-      <div class="box">
-          <div class="imgBx">
-              <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
-              <div class="content" style="position: absolute; bottom: 0;">
-                <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
+      <div *ngIf="all.type=='Mouse'">
+        <div class="box">
+            <div class="imgBx">
+                <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
+                <div class="content" style="position: absolute; bottom: 0;">
+                  <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
+              </div>
             </div>
-          </div>
+        </div>
       </div>
     </div>
+  </div>
+  <h2 class="titleText">Mousepads</h2>
+  <div class="mainList">
+    <div *ngFor="let all of alls">
+      <div *ngIf="all.type=='Mousepad'">
+        <div class="box">
+            <div class="imgBx">
+                <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
+                <div class="content" style="position: absolute; bottom: 0;">
+                  <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="titleText">Keyboards</h2>
+  <div class="mainList">
+    <div *ngFor="let all of alls">
+      <div *ngIf="all.type=='Keyboard'">
+        <div class="box">
+            <div class="imgBx">
+                <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
+                <div class="content" style="position: absolute; bottom: 0;">
+                  <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="titleText">Monitors</h2>
+  <div class="mainList">
+    <div *ngFor="let all of alls">
+      <div *ngIf="all.type=='Monitor'">
+        <div class="box">
+            <div class="imgBx">
+                <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
+                <div class="content" style="position: absolute; bottom: 0;">
+                  <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="titleText">EDC</h2>
+  <div class="mainList">
+    <div *ngFor="let all of alls">
+      <div *ngIf="all.type=='EDC'">
+        <div class="box">
+            <div class="imgBx">
+                <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
+                <div class="content" style="position: absolute; bottom: 0;">
+                  <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="titleText">Other</h2>
+  <div class="mainList">
+    <div *ngFor="let all of alls">
+      <div *ngIf="all.type=='Other'">
+        <div class="box">
+            <div class="imgBx">
+                <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
+                <div class="content" style="position: absolute; bottom: 0;">
+                  <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="all#top"><div class="scroll-up" style="z-index: 100; opacity: 50%;"></div></a>
