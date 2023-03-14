@@ -235,7 +235,7 @@ section
 }
 .project .projectList:hover .box
 {
-    opacity: 0.2;
+    opacity: 0.7;
 }
 .project .projectList .box:hover
 {
@@ -296,7 +296,7 @@ section
 }
 .main .mainList:hover .box
 {
-    opacity: 0.2;
+    opacity: 0.7;
 }
 .main .mainList .box:hover
 {
