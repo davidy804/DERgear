@@ -47,6 +47,21 @@
       </div>
     </div>
   </div>
+  <h2 class="titleText">Audio</h2>
+  <div class="mainList">
+    <div *ngFor="let all of alls">
+      <div *ngIf="all.type=='Audio'">
+        <div class="box">
+            <div class="imgBx">
+                <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
+                <div class="content" style="position: absolute; bottom: 0;">
+                  <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <h2 class="titleText">Monitors</h2>
   <div class="mainList">
     <div *ngFor="let all of alls">

@@ -390,7 +390,16 @@ export const AllItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: ''
+      caption: `
+      <strong>Curve:</strong> <br>
+      <br> <br>
+      <strong>Sound Quality:</strong> <br> The highs and mids are very clear. The low end is lacking. The bass is very tight and does not slap. The soundstage is huge and airy. Clairity and timber is above average.
+      <br> <br>
+      <strong>Comfort:</strong> <br> This headphone is for large heads. The "air wings" does not have enough tension to sit on my head. I rubberband modded this part to fit my head better. The earcups are very large and can fit anyone's head. It may be too big for smaller heads, but it's comfortable. The earpads are also a bit thin, which makes it even more difficult to fit my small head.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> A comfortable headphone for large heads that is good for competitive gaming. For music, it is decent overall. Depending on the genre, these could shine. They work well with songs that focus on clarity around the mids with tight bass. It lacks in the low end, so hip-hop and bass edm feel a little empty. The extremely big and open soundstage with clear mids and tight lows makes this perfect for competitive gaming. It also is extremely light and comfortable to wear for long hours.
+      <br> <br>
+      `
     }
   ],
 },
@@ -403,7 +412,18 @@ export const AllItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: ''
+      caption: `
+      <strong>Curve:</strong> <br>
+      <br> <br>
+      <strong>Sound Quality:</strong> <br> It sounds good everywhere. Nothing is lacking. It's not bloated or piercing. Clarity or separation is surprisingly good for an IEM. It's near the level of open back headphones.
+      <br> <br>
+      <strong>Comfort:</strong> <br> They are very comfortable for me. Sometimes, I forget they are in my ears. They do fall out when I am chewing or moving my jaw a lot.
+      <br> <br>
+      <strong>Features:</strong> <br> This is where the Airpods Pro 2 shine. The transparency mode and active noise cancelation are implemented very well.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> The perfect true wireless earphones. I can see why these are so popular. It does everything well. They sound great and are feature packed. (if you use an iPhone)
+      <br> <br>
+      `
     }
   ],
 },
@@ -416,7 +436,10 @@ export const AllItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: ''
+      caption: `
+      Not a review, just some thoughts: <br>
+      It has decent quality for an IEM. The soundstage is small. The clarity is not there. The lows are not there. The highs are a bit piercing. The mids are fine. Overall, it is a decent sounding IEM. The problem with IEMs are that they just sound a little smushed.
+      `
     }
   ],
 },
@@ -429,7 +452,14 @@ export const AllItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: ''
+      caption: `
+      <strong>Microphone:</strong> <br> Dynamic
+      <br> <br>
+      <strong>Quality:</strong> <br> The actual microphone itself feels heavy and premium. The tri-pod stand it comes with feels cheap. The sound quality is extremely good for its price. It has a slightly above mid tone compared to other microphones.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> I have the microphone attached to a microphone arm. I keep the microphone about 3-6 inches away from my mouth. It supresses most background noise without sacrificing quality. It does not cut out or clip. It's a great microphone for discord, podcasting, or streaming if you don't mind having the microphone close to your mouth.
+      <br> <br>
+      `
     }
   ],
 },
@@ -442,7 +472,10 @@ export const AllItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: ''
+      caption: `
+      Not a review, just some thoughts: <br>
+      Microphone quality is ever so slightly better. I'm pretty sure it's just the XLR cable upgrade that improved the quality, not the actual interface. The ability to control volumes is the best part of having an audio interface. It is so conveinent having volume knobs right at my fingertips. For ~$20, it was worth it.
+      `
     }
   ],
 },
@@ -502,11 +535,11 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>Material:</strong> <br> Stainless Steel
       <br> <br>
+      <strong>Size:</strong> <br> 3.2 inch blade / x inch open / x inch closed
+      <br> <br>
       <strong>Locking Action:</strong> <br> Button Lock
       <br> <br>
-      <strong></strong> <br>
-      <br> <br>
-      <strong>Conclusions:</strong> <br>
+      <strong>Conclusions:</strong> <br> An entry level pocket knife with a satisfying action. The action has a smooth flick with a satisfying sound when fully open or closed. It feels premium in hand. The comfort grooves are all in the right spots. The only small problem I have with mine is that sometimes the button needs to be pressed harder to get the smooth action. It gets caught on the lock if the button is not pressed all the way. This could be that I am weak. Also, I can't thumb flick to open the knife. It's either too hard, or I suck at it. I'm pretty sure it's that I suck.
       <br> <br>
       `
     }
@@ -521,7 +554,15 @@ export const AllItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: ''
+      caption: `
+      <strong>Material:</strong> <br> Titanium
+      <br> <br>
+      <strong>Size:</strong> <br> TINY
+      <br> <br>
+      <strong>Features:</strong> <br> OLED screen that displays Lumens and battery. It has a locking mechanism. Turbo mode that can get as bright as 500 Lumens. USB-C charging
+      <br> <br>
+      <strong>Conclusions:</strong> <br> A bright and compact flashlight with an OLED screen for information. This flashlight is feature heavy and looks great. I don't have any problems with it turning on in my pocket. It gets bright enough to light up an entire room. It does what I need it to do. It's a little on the expensive side at ~$45, but you are paying for the size, brightness, and aesthetic.
+      `
     }
   ],
 },
@@ -534,7 +575,14 @@ export const AllItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: ''
+      caption: `
+      <strong>Material:</strong> <br> Horween leather lined with felt
+      <br> <br>
+      <strong>Size:</strong> <br> Fits ~8 cards. It can fit more, but might get thick and tight.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> A premium, minimal, leather card wallet. It feels great in hand. The leather is pre-stretched, which means its durability is higher than some other leather wallets. The Horween leather will patina and look unique. What can I say? It's a leather wallet.
+      <br> <br>
+      `
     }
   ],
 },
@@ -547,7 +595,14 @@ export const AllItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: ''
+      caption: `
+      <strong>Material:</strong> <br> Horween leather with rubber edges
+      <br> <br>
+      <strong>Protection:</strong> <br> It might protect the sides from light drops, but I would not limit test this thing. It will not protect your phone from drops.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> A premium, leather phone case. It feels good in hand. Where the leather and rubber edges meet, it is not flush. You don't really notice it unless you are feeling around for it. The grippy sides are very nice. The leather is soft and will patina nicely. What can I say? It's a leather phone case.
+      <br> <br>
+      `
     }
   ],
 },
@@ -560,7 +615,16 @@ export const AllItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: ''
+      caption: `
+      <strong>Material:</strong> <br> Stainless Steel
+      <br> <br>
+      <strong>Refills:</strong> <br>
+      <br> <br>
+      <strong>Action:</strong> <br> Bolt Action. It's very satisfying. It's placed perfectly for your right hand.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> A bolt action, stainless steel, premium pocket pen. It has a removable deep carry clip, which is how like to carry it. It writes well. The weight of the pen gives it a nice, heavy, swinging feeling when signing your signature. For ~$40, it is expensive for a pen, but compared to other bolt actions, this is worth it.
+      <br> <br>
+      `
     }
   ],
 },
@@ -581,18 +645,41 @@ export const AllItems: MainModel[] = [
 {
   id: '600',
   type: 'Other',
+  name: 'Microsoft Webcam',
+  description: '720p / 30 fps',
+  imgSrc: './assets/images/test.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      Not a review, just some thoughts: <br>
+      This thing sucks, but it hasn't broke on me yet and I don't need a webcam. It is low resolution and blurry. It needs a lot of light to still look bad. It has a low frame rate. It sucks, but it has been working for almost 10 years now. I have been looking for an excuse to buy a new one, but I just don't use a webcam for anything.
+      `
+    }
+  ],
+},
+{
+  id: '601',
+  type: 'Other',
   name: 'Herman Miller Aeron',
   description: 'Size C',
   imgSrc: './assets/images/test.png',
   details: [
     {
       imgSrc: '',
-      caption: ''
+      caption: `
+      <strong>Comfort:</strong> <br> Size C is too large for me, but when sitting properly, it is comfortable. It's not a cushiony comfortable, but your body just fits well into the mesh.
+      <br> <br>
+      <strong>Features:</strong> <br> Lots of adjustability. Height adjust. Locking mechanism for leaning back. Varying weight for the lean back. Arms adjust every way except forward and back. Lumbar support can be adjusted.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> A comfortable, premium, office chair best used for productivity. This chair almost forces you to sit properly. Because of this, it's best used for productivity. It keeps you comfortable while you are working. This is not a lounge chair. It not comfortable when sitting in improper positions. There are better chairs for lounging. (Ex: Secret Lab) This chair is not cushioned, has no headrest, and forces your legs and back in a proper seating position. This is an amazing productivity chair.
+      <br> <br>
+      `
     }
   ],
 },
 {
-  id: '601',
+  id: '602',
   type: 'Other',
   name: 'Mazda 3',
   description: '2022 / Carbon Edition',
@@ -600,7 +687,21 @@ export const AllItems: MainModel[] = [
   details: [
     {
       imgSrc: '',
-      caption: ''
+      caption: `
+      <strong>Exterior:</strong> <br> The polymer gray has different hues depending on lighting. It's gray with a blue-green undertone. The design is beautiful. There are no sharp lines. It is smooth and refined.
+      <br> <br>
+      <strong>Interior:</strong> <br> The red leather seats was a huge selling point for me. There are premium materials all over the interior, lots of soft leather.
+        <br> Lots of safety features. Tactile satisfying knobs for HVAC and volume. Heated front seats.
+        <br> Infotainment system is controlled by a single knob by the center console. It's actually very nice and comfortable to use. It has wired Android Auto and Apple Car Play.
+        <br> The Bose speaker system is amazing. The clarity is the best I've heard in any audio system. It is lacking in the low ends (bass) because it is a compact car with a small subwoofer. The bass is very tight, but doesn't slap.
+      <br> <br>
+      <strong>Drive:</strong> <br> It's a tight driving experience. The cabin is very quiet, even when on the highway. This car does not take bumps well. You can feel most bumps, but it's very comfortable on smooth roads. It zooms compared to other cars in it's category.
+      <br> <br>
+      <strong>Reliability:</strong> <br> It is a Mazda, so it's not Toyota or Honda levels of reliable. It's just below them in reliability. I get ~20 MPG with city driving. This is with the HVAC and speakers going at full blast.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> A driver's car with a luxury design. The materials, design, and features makes it feel luxurious. The tight driving experience and lack of some driving features makes this a driver's car. This car is for a single person or a couple. It is a compact car at the end of the day. There is not enough space for a family.
+      <br> <br>
+      `
     }
   ],
 },
