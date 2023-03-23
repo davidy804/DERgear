@@ -10,7 +10,7 @@ import { MainModel } from "./main-model";
 // 600-699 = other
 
 export const AllItems: MainModel[] = [
-//////// Mice ////////
+//////////********** Mice **********//////////
 {
   id: '94',
   type: 'Mouse',
@@ -161,7 +161,7 @@ export const AllItems: MainModel[] = [
     }
   ],
 },
-//////// Mousepads ////////
+//////////********** Mousepads **********//////////
 {
   id: '195',
   type: 'Mousepad',
@@ -287,7 +287,7 @@ export const AllItems: MainModel[] = [
     }
   ],
 },
-//////// Keyboards ////////
+//////////********** Keyboards **********//////////
 {
   id: '296',
   type: 'Keyboard',
@@ -375,12 +375,12 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Sound Profile:</strong> <br> Empty, Thock, Scratch
       <br> <br>
-      <strong>Conclusions:</strong> <br> An entry level 75% with the signature Cherry scratch. This board lacks any character. No matter what switches you put in, it'll sound very similar. The typing feel is very firm as there is no flex or space in the keyboard. The Broken-In Browns are a very smooth light tactile with a scratchy sound. I would like to use these switches in another aluminum plate keyboard to get better feel of these switches.
+      <strong>Conclusions:</strong> <br> An entry level 75% with the signature Cherry scratch. This board lacks character. No matter what switches you put in, it'll sound very similar. The typing feel is very firm as there is no flex or space in the keyboard. The Broken-In Browns are a very smooth light tactile with a scratchy sound. I would like to use these switches in another aluminum plate keyboard to get better feel of these switches.
       `
     }
   ],
 },
-//////// Audio ////////
+//////////********** Audio **********//////////
 {
   id: '309',
   type: 'Audio',
@@ -421,7 +421,7 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Features:</strong> <br> This is where the Airpods Pro 2 shine. The transparency mode and active noise cancelation are implemented very well.
       <br> <br>
-      <strong>Conclusions:</strong> <br> The perfect true wireless earphones. I can see why these are so popular. It does everything well. They sound great and are feature packed. (if you use an iPhone)
+      <strong>Conclusions:</strong> <br> The perfect true wireless earphones. There is a reason they are so popular. It does everything well. They sound great and are feature packed. (if you use an iPhone)
       <br> <br>
       `
     }
@@ -438,7 +438,7 @@ export const AllItems: MainModel[] = [
       imgSrc: '',
       caption: `
       Not a review, just some thoughts: <br>
-      It has decent quality for an IEM. The soundstage is small. The clarity is not there. The lows are not there. The highs are a bit piercing. The mids are fine. Overall, it is a decent sounding IEM. The problem with IEMs are that they just sound a little smushed.
+      It has decent quality for an IEM. The soundstage is small. The clarity is not there. The lows are not there. The highs are a bit piercing. The mids are fine. Overall, it is a decent sounding IEM. The problem with IEMs are that they just sound a little smushed, like all frequencies come from the same plane. It's hard to listen to when there are lots of sounds going on at once.
       `
     }
   ],
@@ -457,7 +457,7 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Quality:</strong> <br> The actual microphone itself feels heavy and premium. The tri-pod stand it comes with feels cheap. The sound quality is extremely good for its price. It has a slightly above mid tone compared to other microphones.
       <br> <br>
-      <strong>Conclusions:</strong> <br> I have the microphone attached to a microphone arm. I keep the microphone about 3-6 inches away from my mouth. It supresses most background noise without sacrificing quality. It does not cut out or clip. It's a great microphone for discord, podcasting, or streaming if you don't mind having the microphone close to your mouth.
+      <strong>Conclusions:</strong> <br> I have the microphone attached to a microphone arm. I keep the microphone about 3-6 inches away from my mouth. It supresses most background noise without sacrificing quality. Using a XLR cable slightly improves this microphone by balancing out extreme frequences. It does not cut out at low volumes or clip at high volume. It's a great microphone for discord, podcasting, or streaming if you don't mind having the microphone close to your mouth.
       <br> <br>
       `
     }
@@ -479,7 +479,7 @@ export const AllItems: MainModel[] = [
     }
   ],
 },
-//////// Monitors ////////
+//////////********** Monitors **********//////////
 {
   id: '498',
   type: 'Monitor',
@@ -522,7 +522,7 @@ export const AllItems: MainModel[] = [
     }
   ],
 },
-//////// EDC ////////
+//////////********** EDC **********//////////
 {
   id: '509',
   type: 'EDC',
@@ -629,7 +629,7 @@ export const AllItems: MainModel[] = [
   ],
 },
 {
-  id: '559',
+  id: '318',
   type: 'EDC',
   name: 'Apple Airpods Pro 2',
   description: 'V-Shaped / Wireless IEM',
@@ -641,7 +641,7 @@ export const AllItems: MainModel[] = [
     }
   ],
 },
-//// Other ////
+//////////********** Other **********//////////
 {
   id: '600',
   type: 'Other',
@@ -688,18 +688,18 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Exterior:</strong> <br> The polymer gray has different hues depending on lighting. It's gray with a blue-green undertone. The design is beautiful. There are no sharp lines. It is smooth and refined.
+      <strong>Exterior:</strong> <br> The polymer gray has different hues depending on lighting. It's gray with a blue-green undertone. Lightly tinted windows and blacked out 18 inch wheels. The design is beautiful. There aren't many sharp lines. It is smooth and refined.
       <br> <br>
       <strong>Interior:</strong> <br> The red leather seats was a huge selling point for me. There are premium materials all over the interior, lots of soft leather.
         <br> Lots of safety features. Tactile satisfying knobs for HVAC and volume. Heated front seats.
         <br> Infotainment system is controlled by a single knob by the center console. It's actually very nice and comfortable to use. It has wired Android Auto and Apple Car Play.
         <br> The Bose speaker system is amazing. The clarity is the best I've heard in any audio system. It is lacking in the low ends (bass) because it is a compact car with a small subwoofer. The bass is very tight, but doesn't slap.
       <br> <br>
-      <strong>Drive:</strong> <br> It's a tight driving experience. The cabin is very quiet, even when on the highway. This car does not take bumps well. You can feel most bumps, but it's very comfortable on smooth roads. It zooms compared to other cars in it's category.
+      <strong>Drive:</strong> <br> It's a tight driving experience. The cabin is very quiet, even when on the highway. This car does not take bumps well. You can feel most bumps, but it's very comfortable on smooth roads. This is because of the 18 inch wheels and tight suspension. The automatic gear shift sometimes misses. It'll be very early or very late on the shifts, but there is a manual shift up/down mode. It zooms compared to other cars in it's category.
       <br> <br>
-      <strong>Reliability:</strong> <br> It is a Mazda, so it's not Toyota or Honda levels of reliable. It's just below them in reliability. I get ~20 MPG with city driving. This is with the HVAC and speakers going at full blast.
+      <strong>Reliability:</strong> <br> It is a Mazda, so it is just below Toyota and Honda in terms of reliability. I get ~20 MPG with city driving. This is with the HVAC and speakers going at full blast. Maintienance is on the cheaper side. Maintains decent value over the years compared to most manufacturers.
       <br> <br>
-      <strong>Conclusions:</strong> <br> A driver's car with a luxury design. The materials, design, and features makes it feel luxurious. The tight driving experience and lack of some driving features makes this a driver's car. This car is for a single person or a couple. It is a compact car at the end of the day. There is not enough space for a family.
+      <strong>Conclusions:</strong> <br> A driver's car with a luxury design. The materials, design, and features makes it feel luxurious. The tight driving experience and lack of some driving features makes this a driver's car. This car is for a single person or a couple. It is a compact car at the end of the day. There is not enough space for a family. This is a great everyday sedan for a young person that loves premium materials and a premium driving experience.
       <br> <br>
       `
     }
