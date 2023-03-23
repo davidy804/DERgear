@@ -1,8 +1,8 @@
 export class MainModel {
   id: any;
+  type!: string;
   name!: string;
   description!: string;
-  link: any;
   imgSrc?: string;
   details!: [
     {
