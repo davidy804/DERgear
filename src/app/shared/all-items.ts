@@ -12,6 +12,31 @@ import { MainModel } from "./main-model";
 export const AllItems: MainModel[] = [
 //////////********** Mice **********//////////
 {
+  id: '93',
+  type: 'Mouse',
+  name: 'Lamzu Atlantis Mini',
+  description: 'Claw / Small',
+  imgSrc: './assets/images/test.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Specs:</strong> <br> Sensor: 3395 <br> Switches: Huano Pinks with Blue Dots <br> Weight: 49g <br> Battery: <br>
+      <br> <br>
+      <strong>Shape:</strong> <br> An XM1 clone? It's very similar to the aggressive claw shape of the XM1. The hump is more towards the center of the mouse and the sides are not flared out as much. This makes it a little more versatile. Relaxed claw, palm claw, and knuckle claw is much more comfortable because of these differences. The shape is small, so if you have larger hands, fingertip works well. The sides are slightly angled and wide, so it's not the most comfortable to fingertip. The shape works well for me when I want a stable grip.
+      <br> <br>
+      <strong>Buttons:</strong> <br> The M1 and M2 buttons feel premium. They have a soft thuddy sound with a heavy tactile feedback. On the return, the mouse clicks feel like they are going to bounce out of the mouse. Maybe that's because the springs are long and the mouse is very light, I'm not sure. It does feel good though. The side buttons are similar to the M1 and M2, very good. The scroll wheel is surprisingly good. The rubber material is comfortable and grippy. There are very defined bumps and the button is heavy. The button press down is heavy, which is fine, but the return is light and barely noticable. I'm not a fan of it because it doesn't give me the tactile feedback that the button has returned, which makes it hard to spam. The buttons in general feel like quality heavy switches.
+      <br> <br>
+      <strong>Value:</strong> <br> This mouse retails around $90. I have the limited time Rose Gold version, which was a little more expensive. ($99) It's an incredible deal. The mouse itself is end game worthy. You get replacement PTFE feet and grip tape for free. The unboxing experience feels premium. An end game mouse with little QC issues for $90 seems like good value.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> This is a small, claw grip mouse that has most features and little QC issues. The coating on my version is extremely grippy. Combined with the claw shape, I feel very confident with it in hand. This mouse does force me to claw the mouse though. I am not really able switch grips quickly. Depending on the game and situation, I like to switch to different grips to adjust to the situation. An example would be switching to fingertip for quick micromovements. My hand wants to stay claw and not move when holding this mouse. All in all, this mouse has everything you'd want from a gaming mouse, except Razer's technology. For a small, claw mouse, this is as good as it's going to get.
+      <br> <br>
+      <strong>Score:</strong> <br> 9/10
+      `
+    }
+  ],
+},
+{
   id: '94',
   type: 'Mouse',
   name: 'Razer Orochi v2',
@@ -40,7 +65,7 @@ export const AllItems: MainModel[] = [
   id: '95',
   type: 'Mouse',
   name: 'Razer Viper Mini',
-  description: 'Claw / Small',
+  description: 'Hybrid / Small',
   imgSrc: './assets/images/test.png',
   details: [
     {
@@ -48,13 +73,13 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>Specs:</strong> <br>
       <br> <br>
-      <strong>Shape:</strong> <br> This is the god shape. For small hands, every grip feels comfortable. I only have one problem with the shape. It is a little too long. When I claw the mouse, the back hump is not present enough in my palm unless I angle the mouse. I've gotten used to an angle sensor, but I can see someone else having issues with this. The mouse is also very narrow. I like this, but someone with larger hands may not. For fingertip, this mouse shape is perfect.
+      <strong>Shape:</strong> <br> This is the god shape. For small hands, every grip feels comfortable. The mouse is very narrow. I like this, but someone with larger hands may not. For fingertip, this mouse shape is perfect.
       <br> <br>
       <strong>Buttons:</strong> <br> The M1 and M2 buttons feel good, but will side to side creak after a long time. The side buttons are a little mushy. The scroll wheel is light with lightly defined bumps. My scroll wheel is showing its age. The scrolling and button is no longer consistent. It randomly scrolls, scrolls in opposite directions sometimes, and button press doesn't always work.
       <br> <br>
       <strong>Value:</strong> <br> This is the best bang for your buck. This mouse goes on sale for ~$20. It is a lot of people's end game. I have been using it for years with heavy use and it only has minor issues.
       <br> <br>
-      <strong>Conclusions:</strong> <br> This is the most recommended and popular mouse in the mouse community. It is very cheap, has a great shape, has good qc, and sold everywhere. The problem with this mouse is that it is wired and has a high lift off distance. This is my main mouse for everything except FPS games, because of its wire.
+      <strong>Conclusions:</strong> <br> This is the most recommended and popular mouse in the mouse community. It is very cheap, has a great shape, has good qc, and sold everywhere. The problem with this mouse is that it is wired and has a high lift off distance. This is the most responsive 1000hz mouse in the market right now. Compared to every other mouse, this is consistently 20-30 ms faster. It also will never double click because of the optical switches. This is my main mouse for everything except FPS games, because of its wire.
       <br> <br>
       <strong>Score:</strong> <br> 9/10
       `
@@ -166,7 +191,7 @@ export const AllItems: MainModel[] = [
   id: '195',
   type: 'Mousepad',
   name: 'LGG Saturn',
-  description: 'Control / Hybrid',
+  description: 'Control / Cloth',
   imgSrc: './assets/images/test.png',
   details: [
     {
@@ -306,7 +331,7 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Sound Profile:</strong> <br> Loud, Clacky, Poppy
       <br> <br>
-      <strong>Conclusions:</strong> <br> A high premium stacked acrylic alice style keyboard with a long pole sound profile. It has a great underglow and skeleton plate aesthetic.
+      <strong>Conclusions:</strong> <br> A high premium stacked acrylic alice style keyboard with a long pole sound profile. It has a great underglow and skeleton plate aesthetic. The alice layout was easy to get used to since I touch type with most of my fingers. I did have problems with the B and Y keys. I use both hands to type B and Y, depending on the word. It has some getting used to, but not much. My WPM is about the same no matter the layout.
       `
     }
   ],
@@ -661,6 +686,22 @@ export const AllItems: MainModel[] = [
 {
   id: '601',
   type: 'Other',
+  name: 'Macropad',
+  description: 'Macropad',
+  imgSrc: './assets/images/test.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      Not a review, just some thoughts: <br>
+      I use it as a media player. It's only programmable through QMK, which is okay. I wish it could be programmed through VIA. The RGB is very nice. It's very bright and has a lot of different modes. I'd use it if I liked RGB. The keycaps and layout feel nice. I don't have a use for half the buttons. It is nice having dedicated buttons for media keys, especially because I switch keyboards with different layouts so often. I won this from a giveaway. I would not purchase this on my own. $80 for media keys? If I used macros or streamed, then it might be worth it. But then there are products like the Elgado Stream Deck, which looks better and has more functionality.
+      `
+    }
+  ],
+},
+{
+  id: '602',
+  type: 'Other',
   name: 'Herman Miller Aeron',
   description: 'Size C',
   imgSrc: './assets/images/test.png',
@@ -679,7 +720,7 @@ export const AllItems: MainModel[] = [
   ],
 },
 {
-  id: '602',
+  id: '603',
   type: 'Other',
   name: 'Mazda 3',
   description: '2022 / Carbon Edition',

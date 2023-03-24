@@ -2,9 +2,9 @@ import { MainModel } from "./main-model";
 
 export const MainItems: MainModel[] = [
 {
-  id: '94',
+  id: '93',
   type: 'Mouse',
-  name: 'Razer Orochi v2',
+  name: 'Lamzu Atlantis Mini',
   description: 'Claw / Small',
   imgSrc: './assets/images/test.png',
   details: [
@@ -15,10 +15,10 @@ export const MainItems: MainModel[] = [
   ],
 },
 {
-  id: '196',
+  id: '195',
   type: 'Mousepad',
-  name: 'Aqua Control Plus',
-  description: 'Control / Hybrid',
+  name: 'LGG Saturn',
+  description: 'Control / Cloth',
   imgSrc: './assets/images/test.png',
   details: [
     {
@@ -171,7 +171,7 @@ export const MainItems: MainModel[] = [
   ],
 },
 {
-  id: '559',
+  id: '318',
   type: 'Headphones',
   name: 'Apple Airpods Pro 2',
   description: 'V-Shaped / Wireless IEM',
@@ -198,6 +198,19 @@ export const MainItems: MainModel[] = [
 },
 {
   id: '601',
+  type: 'Macropad',
+  name: 'Macropad',
+  description: 'Macropad',
+  imgSrc: './assets/images/test.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: ''
+    }
+  ],
+},
+{
+  id: '602',
   type: 'Chair',
   name: 'Herman Miller Aeron',
   description: 'Size C',
@@ -210,7 +223,7 @@ export const MainItems: MainModel[] = [
   ],
 },
 {
-  id: '602',
+  id: '603',
   type: 'Car',
   name: 'Mazda 3',
   description: '2022 / Carbon Edition',

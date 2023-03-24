@@ -2,9 +2,9 @@
 <section class="details" id="details">
   <div *ngIf="all" class="mainText">
     <h2 class="titleText">{{all.name}}</h2>
-      <img src="{{all.imgSrc}}" style="height: 400px">
+      <img src="{{all.imgSrc}}" class="imgDt">
   </div>
   <div *ngFor="let detail of all.details" style="display: inline-block; width: 60%">
-    <p *ngIf="detail.caption" style="color: white;" [innerHTML]="detail.caption"></p>
+    <p *ngIf="detail.caption" class="textDt" [innerHTML]="detail.caption"></p>
   </div>
     <button type="button" class="btn-left" (click)="goBack()">Back to List</button>

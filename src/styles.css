@@ -7,7 +7,6 @@
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
-
 body
 {
   background: #111;
@@ -70,7 +69,7 @@ section
 .banner .content h2
 {
   color: #fff;
-  font-size: 5em;
+  font-size: 4em;
 }
 .banner .content p
 {
@@ -265,9 +264,8 @@ section
 {
   font-size: 0.8em;
   font-weight: 300;
-  opacity: 0.5;
+  opacity: 0.7;
 }
-
 .main
 {
   text-align: center;
@@ -422,7 +420,14 @@ section
   background-color: #2e2e2e;
   border-color: #2e2e2e;
 }
-
+.details .imgDt
+{
+  max-width: 75%;
+}
+.details .textDt
+{
+  color: #fff;
+}
 .footer
 {
   display: flex;
@@ -458,7 +463,6 @@ section
   color: #666;
   text-align: center;
 }
-
 @keyframes scroll-down
 {
   0% {opacity:0;}
@@ -471,6 +475,10 @@ section
   section
   {
     padding: 40px;
+  }
+  .header
+  {
+    position: relative;
   }
   .banner .content h2
   {
@@ -519,10 +527,18 @@ section
   {
     height: 320px;
   }
+  .details .imgDt
+  {
+    max-width: 100%;
+  }
+  .details .textDt
+  {
+    color: #fff;
+    font-size: .9em;
+  }
   .footer .sci li a img
   {
     filter: invert(1);
     max-width: 30px;
   }
-
 }
