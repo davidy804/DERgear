@@ -129,8 +129,7 @@ section
   transform: translate(-50%, -40%) rotate(45deg);
   border-bottom: transparent;
   border-right: transparent;
-  animation: scroll-down 1s ease-in-out infinite;
-  animation-direction: reverse;
+  animation: scroll-up 1s ease-in-out infinite;
 }
 .scroll-up:after
 {
@@ -282,6 +281,7 @@ section
   align-items: center;
   flex-wrap: wrap;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 .main .mainList .box
 {
@@ -306,6 +306,20 @@ section
   width: 100%;
   height: 350px;
 }
+.main .mainList .box .category
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  color:grey;
+}
+.main .mainList .box .category span
+{
+  font-size: 1.3em;
+}
 .main .mainList .box .content
 {
   width: 100%;
@@ -313,11 +327,13 @@ section
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 0;
 }
 .main .mainList .box .content h2
 {
   color: #fff;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.2em;
 }
 .main .mainList .box .content h2 span
@@ -470,6 +486,13 @@ section
   60% {opacity:1;}
   100% {opacity:0; top: 90%;}
 }
+@keyframes scroll-up
+{
+  0% {opacity: 0; top: 90%;}
+  30% {opacity: 1;}
+  60% {opacity: 1}
+  100% {opacity: 0;}
+}
 @media (max-width: 767px)
 {
   section
@@ -514,6 +537,14 @@ section
   {
     margin-bottom: 30px;
     transition: none;
+    font-size: .9em;
+  }
+  .titleText
+  {
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.75em;
+    margin-block: 2%;
   }
   .project .projectList .box
   {
@@ -527,6 +558,47 @@ section
   {
     height: 320px;
   }
+  .main .mainList .box
+  {
+    position: relative;
+    min-width: 175px;
+    height: 200px;
+    background: #191919;
+    transition: 0.5s;
+    margin: 10px;
+  }
+  .main .mainList .box .imgBx
+  {
+    position: relative;
+    width: 100%;
+    height: 160px;
+  }
+  .main .mainList .box .category
+  {
+    top: 5px;
+    font-size: .75em;
+  }
+  .main .mainList .box .content
+  {
+    width: 100%;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .mainList .box .content h2
+  {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.2em;
+  }
+  .main .mainList .box .content h2 span
+  {
+    font-size: .8em;
+    font-weight: 300;
+    opacity: 0.5;
+  }
   .details .imgDt
   {
     max-width: 100%;
@@ -534,11 +606,15 @@ section
   .details .textDt
   {
     color: #fff;
-    font-size: .9em;
+    font-size: .85em;
   }
   .footer .sci li a img
   {
     filter: invert(1);
     max-width: 30px;
+  }
+  .copyrightText
+  {
+    font-size: 16px;
   }
 }

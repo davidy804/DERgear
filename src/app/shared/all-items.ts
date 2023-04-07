@@ -16,7 +16,7 @@ export const AllItems: MainModel[] = [
   type: 'Mouse',
   name: 'Lamzu Atlantis Mini',
   description: 'Claw / Small',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/atlantismini.png',
   details: [
     {
       imgSrc: '',
@@ -41,7 +41,7 @@ export const AllItems: MainModel[] = [
   type: 'Mouse',
   name: 'Razer Orochi v2',
   description: 'Claw / Small',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/orochiv2.png',
   details: [
     {
       imgSrc: '',
@@ -66,7 +66,7 @@ export const AllItems: MainModel[] = [
   type: 'Mouse',
   name: 'Razer Viper Mini',
   description: 'Hybrid / Small',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/vipermini.png',
   details: [
     {
       imgSrc: '',
@@ -91,7 +91,7 @@ export const AllItems: MainModel[] = [
   type: 'Mouse',
   name: 'Finalmouse Air58',
   description: 'Palm / Large',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/air58.png',
   details: [
     {
       imgSrc: '',
@@ -116,7 +116,7 @@ export const AllItems: MainModel[] = [
   type: 'Mouse',
   name: 'Logitech G203',
   description: 'Claw / Small',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/g203.png',
   details: [
     {
       imgSrc: '',
@@ -141,7 +141,7 @@ export const AllItems: MainModel[] = [
   type: 'Mouse',
   name: 'Finalmouse Sunset',
   description: 'Palm / Large',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/sunset.png',
   details: [
     {
       imgSrc: '',
@@ -166,7 +166,7 @@ export const AllItems: MainModel[] = [
   type: 'Mouse',
   name: 'Logitech G502',
   description: 'Palm / Large',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/g502.png',
   details: [
     {
       imgSrc: '',
@@ -192,7 +192,7 @@ export const AllItems: MainModel[] = [
   type: 'Mousepad',
   name: 'LGG Saturn',
   description: 'Control / Cloth',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/saturn.png',
   details: [
     {
       imgSrc: '',
@@ -217,7 +217,7 @@ export const AllItems: MainModel[] = [
   type: 'Mousepad',
   name: 'Aqua Control Plus',
   description: 'Control / Hybrid',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/aquacontrol.png',
   details: [
     {
       imgSrc: '',
@@ -242,7 +242,7 @@ export const AllItems: MainModel[] = [
   type: 'Mousepad',
   name: 'PFERDEKI',
   description: 'Speed / Hybrid',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/pferdeki.png',
   details: [
     {
       imgSrc: '',
@@ -267,7 +267,7 @@ export const AllItems: MainModel[] = [
   type: 'Mousepad',
   name: 'Cooler Master MP510',
   description: 'Hybrid / Codura',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/mp510.png',
   details: [
     {
       imgSrc: '',
@@ -292,7 +292,7 @@ export const AllItems: MainModel[] = [
   type: 'Mousepad',
   name: 'SteelSeries QCK+',
   description: 'Control / Cloth',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/qck.png',
   details: [
     {
       imgSrc: '',
@@ -410,13 +410,13 @@ export const AllItems: MainModel[] = [
   id: '309',
   type: 'Audio',
   name: 'Audio Technica ATH-AD900x',
-  description: 'Balanced / Open',
-  imgSrc: './assets/images/test.png',
+  description: 'Warm / Open',
+  imgSrc: './assets/images/ad900x.png',
   details: [
     {
       imgSrc: '',
       caption: `
-      <strong>Curve:</strong> <br>
+      <strong>Curve:</strong> <br> Warm with bass boost
       <br> <br>
       <strong>Sound Quality:</strong> <br> The highs and mids are very clear. The low end is lacking. The bass is very tight and does not slap. The soundstage is huge and airy. Clairity and timber is above average.
       <br> <br>
@@ -433,12 +433,12 @@ export const AllItems: MainModel[] = [
   type: 'Audio',
   name: 'Apple Airpods Pro 2',
   description: 'V-Shape / Wireless IEM',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/airpodspro2-1.png',
   details: [
     {
       imgSrc: '',
       caption: `
-      <strong>Curve:</strong> <br>
+      <strong>Curve:</strong> <br> Mild V-Shape
       <br> <br>
       <strong>Sound Quality:</strong> <br> It sounds good everywhere. Nothing is lacking. It's not bloated or piercing. Clarity or separation is surprisingly good for an IEM. It's near the level of open back headphones.
       <br> <br>
@@ -456,8 +456,8 @@ export const AllItems: MainModel[] = [
   id: '319',
   type: 'Audio',
   name: 'KZ ZS10 Pro',
-  description: 'Neutral / IEM',
-  imgSrc: './assets/images/test.png',
+  description: 'V-Shape / IEM',
+  imgSrc: './assets/images/zs10pro.png',
   details: [
     {
       imgSrc: '',
@@ -473,7 +473,7 @@ export const AllItems: MainModel[] = [
   type: 'Audio',
   name: 'Samson Q2U',
   description: 'Dynamic',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/q2u.png',
   details: [
     {
       imgSrc: '',
@@ -493,7 +493,7 @@ export const AllItems: MainModel[] = [
   type: 'Audio',
   name: 'BEHRINGER U-Phoria UM2',
   description: 'Audio Interface',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/um2.png',
   details: [
     {
       imgSrc: '',
@@ -508,9 +508,9 @@ export const AllItems: MainModel[] = [
 {
   id: '498',
   type: 'Monitor',
-  name: 'Legion (Model #)',
+  name: 'Lenovo Legion Y25-25',
   description: '1080p / 240hz',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/y25.png',
   details: [
     {
       imgSrc: '',
@@ -529,9 +529,9 @@ export const AllItems: MainModel[] = [
 {
   id: '499',
   type: 'Monitor',
-  name: 'Dell (Model #)',
+  name: 'Dell S2716DG',
   description: '1440p / 144hz',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/S2716DG.png',
   details: [
     {
       imgSrc: '',
@@ -553,7 +553,7 @@ export const AllItems: MainModel[] = [
   type: 'EDC',
   name: 'CJRB Pyrite',
   description: 'Button Lock',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/pyrite.png',
   details: [
     {
       imgSrc: '',
@@ -575,7 +575,7 @@ export const AllItems: MainModel[] = [
   type: 'EDC',
   name: 'Nitecore TINI 2',
   description: '500 Lumens',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/tini2.png',
   details: [
     {
       imgSrc: '',
@@ -596,7 +596,7 @@ export const AllItems: MainModel[] = [
   type: 'EDC',
   name: 'Nomad Card Wallet',
   description: 'Brown Horween Leather',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/nomadwallet.png',
   details: [
     {
       imgSrc: '',
@@ -616,7 +616,7 @@ export const AllItems: MainModel[] = [
   type: 'EDC',
   name: 'Nomad Phone Case',
   description: 'Brown Horween Leather',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/nomadphone.png',
   details: [
     {
       imgSrc: '',
@@ -636,7 +636,7 @@ export const AllItems: MainModel[] = [
   type: 'EDC',
   name: 'Refyne EP1',
   description: 'Stainless Steel / Bolt Action',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/refyne.png',
   details: [
     {
       imgSrc: '',
@@ -658,7 +658,7 @@ export const AllItems: MainModel[] = [
   type: 'EDC',
   name: 'Apple Airpods Pro 2',
   description: 'V-Shaped / Wireless IEM',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/airpodspro2-2.png',
   details: [
     {
       imgSrc: '',
@@ -670,9 +670,9 @@ export const AllItems: MainModel[] = [
 {
   id: '600',
   type: 'Other',
-  name: 'Microsoft Webcam',
+  name: 'Microsoft LifeCam HD-3000',
   description: '720p / 30 fps',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/lifecamhd3000.png',
   details: [
     {
       imgSrc: '',
@@ -686,9 +686,9 @@ export const AllItems: MainModel[] = [
 {
   id: '601',
   type: 'Other',
-  name: 'Macropad',
+  name: '0xC.pad',
   description: 'Macropad',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/0xCpad.png',
   details: [
     {
       imgSrc: '',
@@ -704,7 +704,7 @@ export const AllItems: MainModel[] = [
   type: 'Other',
   name: 'Herman Miller Aeron',
   description: 'Size C',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/aeron.png',
   details: [
     {
       imgSrc: '',

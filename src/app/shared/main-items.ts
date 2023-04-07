@@ -44,7 +44,7 @@ export const MainItems: MainModel[] = [
   id: '309',
   type: 'Headphones',
   name: 'Audio Technica ATH-AD900x',
-  description: 'Balanced / Open',
+  description: 'Warm / Open',
   imgSrc: './assets/images/test.png',
   details: [
     {
@@ -174,7 +174,7 @@ export const MainItems: MainModel[] = [
   id: '318',
   type: 'Headphones',
   name: 'Apple Airpods Pro 2',
-  description: 'V-Shaped / Wireless IEM',
+  description: 'V-Shape / Wireless IEM',
   imgSrc: './assets/images/test.png',
   details: [
     {
