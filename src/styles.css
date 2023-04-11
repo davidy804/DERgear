@@ -252,6 +252,8 @@ section
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 0;
 }
 .project .projectList .box .content h2
 {
@@ -263,7 +265,7 @@ section
 {
   font-size: 0.8em;
   font-weight: 300;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .main
 {
@@ -313,8 +315,10 @@ section
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 10px;
-  color:grey;
+  top: 0px;
+  color: #ffffff;
+  opacity: 0.7;
+  background-color: #bbbbbb33;
 }
 .main .mainList .box .category span
 {
@@ -329,6 +333,7 @@ section
   align-items: center;
   position: absolute;
   bottom: 0;
+  background-color: #bbbbbb33;
 }
 .main .mainList .box .content h2
 {
@@ -340,7 +345,7 @@ section
 {
   font-size: 0.8em;
   font-weight: 300;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .btn-right
 {
@@ -575,27 +580,30 @@ section
   }
   .main .mainList .box .category
   {
-    top: 5px;
-    font-size: .75em;
+    top: 0px;
+    font-size: .7em;
   }
   .main .mainList .box .content
   {
     width: 100%;
-    height: 0px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #bbbbbb33;
   }
   .main .mainList .box .content h2
   {
     color: #fff;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 400;
-    line-height: 1.2em;
+    line-height: 1em;
   }
   .main .mainList .box .content h2 span
   {
-    font-size: .8em;
+    font-size: .7em;
     font-weight: 300;
     opacity: 0.5;
   }

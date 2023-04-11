@@ -318,7 +318,7 @@ export const AllItems: MainModel[] = [
   type: 'Keyboard',
   name: 'IV Works AV4',
   description: 'KTT Roses / NicePBT Beach Day',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/av4.png',
   details: [
     {
       imgSrc: '',
@@ -341,7 +341,7 @@ export const AllItems: MainModel[] = [
   type: 'Keyboard',
   name: 'WindX65',
   description: 'Gateron Box Pinks / NicePBT Classic Beige',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/windx65.png',
   details: [
     {
       imgSrc: '',
@@ -364,7 +364,7 @@ export const AllItems: MainModel[] = [
   type: 'Keyboard',
   name: 'WS Ikki Aurora R2',
   description: 'WS Silent Linears / DMK Ghost',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/ikki68.png',
   details: [
     {
       imgSrc: '',
@@ -387,7 +387,7 @@ export const AllItems: MainModel[] = [
   type: 'Keyboard',
   name: 'GMMK PRO',
   description: 'Cherry MX Browns / PBTFans WoB',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/gmmkpro.png',
   details: [
     {
       imgSrc: '',
@@ -724,7 +724,7 @@ export const AllItems: MainModel[] = [
   type: 'Other',
   name: 'Mazda 3',
   description: '2022 / Carbon Edition',
-  imgSrc: './assets/images/test.png',
+  imgSrc: './assets/images/mazda3.png',
   details: [
     {
       imgSrc: '',
