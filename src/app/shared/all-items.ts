@@ -86,7 +86,6 @@ export const AllItems: MainModel[] = [
     }
   ],
 },
-//////////********** Audio **********//////////
 {
   id: '96',
   type: 'Mouse',
@@ -112,7 +111,6 @@ export const AllItems: MainModel[] = [
     }
   ],
 },
-//////////********** EDC **********//////////
 {
   id: '97',
   type: 'Mouse',
@@ -420,11 +418,11 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>Curve:</strong> <br> Warm with bass boost
       <br> <br>
-      <strong>Sound Quality:</strong> <br> The highs and mids are very clear. The low end is lacking. The bass is very tight and does not slap. The soundstage is huge and airy. Clairity and timber is above average.
+      <strong>Sound Quality:</strong> <br> The highs and mids are very clear. The low end is lacking. The bass is very tight and does not slap. The soundstage is huge and airy. The imaging and depth is the best I've heard on any headphone. Clairity and timber is above average.
       <br> <br>
       <strong>Comfort:</strong> <br> This headphone is for large heads. The "air wings" does not have enough tension to sit on my head. I rubberband modded this part to fit my head better. The earcups are very large and can fit anyone's head. It may be too big for smaller heads, but it's comfortable. The earpads are also a bit thin, which makes it even more difficult to fit my small head.
       <br> <br>
-      <strong>Conclusions:</strong> <br> A comfortable headphone for large heads that is good for competitive gaming. For music, it is decent overall. Depending on the genre, these could shine. They work well with songs that focus on clarity around the mids with tight bass. It lacks in the low end, so hip-hop and bass edm feel a little empty. The extremely big and open soundstage with clear mids and tight lows makes this perfect for competitive gaming. It also is extremely light and comfortable to wear for long hours.
+      <strong>Conclusions:</strong> <br> A comfortable headphone for large heads that is good for competitive gaming. For music, it is decent overall. Depending on the genre, these could shine. They work well with songs that focus on clarity around the mids with tight bass. It lacks in the low end, so hip-hop and bass edm feel a little empty. The extremely big and open soundstage with great imaging and depth makes this perfect for competitive gaming. It also is extremely light and comfortable to wear for long hours.
       <br> <br>
       `
     }
@@ -442,7 +440,7 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>Curve:</strong> <br> Mild V-Shape
       <br> <br>
-      <strong>Sound Quality:</strong> <br> It sounds good everywhere. Nothing is lacking. It's not bloated or piercing. Clarity or separation is surprisingly good for an IEM. It's near the level of open back headphones.
+      <strong>Sound Quality:</strong> <br> It sounds good everywhere. Nothing is lacking. It's not bloated or piercing. Clarity or separation is surprisingly good for an IEM.
       <br> <br>
       <strong>Comfort:</strong> <br> They are very comfortable for me. Sometimes, I forget they are in my ears. They do fall out when I am chewing or moving my jaw a lot.
       <br> <br>
@@ -465,7 +463,7 @@ export const AllItems: MainModel[] = [
       imgSrc: '',
       caption: `
       Not a review, just some thoughts: <br>
-      It has decent quality for an IEM. The soundstage is small. The clarity is not there. The lows are not there. The highs are a bit piercing. The mids are fine. Overall, it is a decent sounding IEM. The problem with IEMs are that they just sound a little smushed, like all frequencies come from the same plane. It's hard to listen to when there are lots of sounds going on at once.
+      It has decent quality for an IEM. The soundstage is small. The clarity is not there. The lows are not there. The highs are a bit piercing. The mids are fine. Overall, it is a decent sounding IEM. The problem with IEMs are that they just sound a little smushed, like all frequencies come from the same plane. It's hard to listen to when there are lots of sounds going on at once. These are very sensitive. Which means if there is a little bit of interference, you'll hear some static.
       `
     }
   ],
