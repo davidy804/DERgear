@@ -318,7 +318,6 @@ section
   top: 0px;
   color: #ffffff;
   opacity: 0.7;
-  background-color: #bbbbbb33;
 }
 .main .mainList .box .category span
 {
@@ -333,7 +332,6 @@ section
   align-items: center;
   position: absolute;
   bottom: 0;
-  background-color: #bbbbbb33;
 }
 .main .mainList .box .content h2
 {
@@ -557,17 +555,17 @@ section
     max-width: 350px;
     min-width: initial;
     width: 350px;
-    height: 400px;
+    height: 350px;
   }
   .project .projectList .box .imgBx
   {
-    height: 320px;
+    height: 350px;
   }
   .main .mainList .box
   {
     position: relative;
     min-width: 175px;
-    height: 200px;
+    height: 175px;
     background: #191919;
     transition: 0.5s;
     margin: 10px;
@@ -576,7 +574,7 @@ section
   {
     position: relative;
     width: 100%;
-    height: 160px;
+    height: 100%;
   }
   .main .mainList .box .category
   {
@@ -592,7 +590,6 @@ section
     align-items: center;
     position: absolute;
     bottom: 0;
-    background-color: #bbbbbb33;
   }
   .main .mainList .box .content h2
   {

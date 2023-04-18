@@ -54,7 +54,7 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Value:</strong> <br> This mouse is not worth it for the retail price of $80. I would buy it again at the sale price (~$40).
       <br> <br>
-      <strong>Conclusions:</strong> <br> This is a budget travel mouse that can be used for gaming. The bluetooth mode, AA/AAA battery, small size makes it perfect for traveling or using it with a laptop. For gaming, it is alright. It has Razer's technology (responsive sensor and optical switches). It feels like a budget mouse. The buttons are loud. The shape and coating is not comfortable and feels slippery. The removable top shell makes the mouse creak. This is my current main for FPS games because it is wireless.
+      <strong>Conclusions:</strong> <br> This is a budget travel mouse that can be used for gaming. The bluetooth mode, AA/AAA battery, small size makes it perfect for traveling or using it with a laptop. For gaming, it is alright. It has Razer's technology (responsive sensor and optical switches). It feels like a budget mouse. The buttons are loud. The shape and coating is not comfortable and feels slippery. The removable top shell makes the mouse creak. <br> This is Razer's version of the Logitech G305. <br> Razer > Logitech therefore Orochi v2 > G305
       <br> <br>
       <strong>Score:</strong> <br> 7/10
       `
@@ -79,7 +79,7 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Value:</strong> <br> This is the best bang for your buck. This mouse goes on sale for ~$20. It is a lot of people's end game. I have been using it for years with heavy use and it only has minor issues.
       <br> <br>
-      <strong>Conclusions:</strong> <br> This is the most recommended and popular mouse in the mouse community. It is very cheap, has a great shape, has good qc, and sold everywhere. The problem with this mouse is that it is wired and has a high lift off distance. This is the most responsive 1000hz mouse in the market right now. Compared to every other mouse, this is consistently 20-30 ms faster. It also will never double click because of the optical switches. This is my main mouse for everything except FPS games, because of its wire.
+      <strong>Conclusions:</strong> <br> This is the most recommended and popular mouse in the mouse community. It is very cheap, has a great shape, has good qc, and sold everywhere. The problem with this mouse is that it is wired and has a high lift off distance. This is the most responsive 1000hz mouse in the market right now. Compared to every other mouse, this is consistently faster. It also will never double click because of the optical switches. This is my main mouse for everything except FPS games, because of its wire.
       <br> <br>
       <strong>Score:</strong> <br> 9/10
       `
@@ -362,7 +362,7 @@ export const AllItems: MainModel[] = [
 {
   id: '298',
   type: 'Keyboard',
-  name: 'WS Ikki Aurora R2',
+  name: 'WS Ikki68 Aurora R2',
   description: 'WS Silent Linears / DMK Ghost',
   imgSrc: './assets/images/ikki68.png',
   details: [
