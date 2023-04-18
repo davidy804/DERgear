@@ -86,6 +86,7 @@ export const AllItems: MainModel[] = [
     }
   ],
 },
+//////////********** Audio **********//////////
 {
   id: '96',
   type: 'Mouse',
@@ -111,6 +112,7 @@ export const AllItems: MainModel[] = [
     }
   ],
 },
+//////////********** EDC **********//////////
 {
   id: '97',
   type: 'Mouse',
