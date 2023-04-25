@@ -8,12 +8,18 @@
           <div class="imgBx">
               <a routerLink="/details/{{main.id}}" routerLinkActive="active"><img src="{{main.imgSrc}}" class="fitImg"></a>
               <div class="category">
-                <span>{{main.type}}</span>
+                <a routerLink="/details/{{main.id}}" routerLinkActive="active"><span>{{main.type}}</span></a>
               </div>
               <div class="content">
-                <h2>{{main.name}}<br><span>{{main.description}}</span></h2>
+                <a routerLink="/details/{{main.id}}" routerLinkActive="active"><h2>{{main.name}}<br><span>{{main.description}}</span></h2></a>
             </div>
           </div>
       </div>
     </div>
-    <a href="main#"><div class="scroll-up" style="z-index: 100; opacity: 50%;"></div></a>
+    <a href="main#"><div class="scroll-up" style="z-index: 100; opacity: 50%;" title="Back to Top"></div></a>
+    <div style="display: flex; text-transform: uppercase;">
+      <a class="btn-slice" style="left: 1%; bottom: 5%" (click)="goBack()">
+        <div class="top"><span>Back to Home</span></div>
+        <div class="bottom"><span>Back to Home</span></div>
+      </a>
+    </div>

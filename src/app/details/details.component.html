@@ -4,7 +4,12 @@
     <h2 class="titleText">{{all.name}}</h2>
       <img src="{{all.imgSrc}}" class="imgDt">
   </div>
-  <div *ngFor="let detail of all.details" style="display: inline-block; width: 60%">
+  <div *ngFor="let detail of all.details" style="display: inline-block; width: 60%; margin-top: 1%">
     <p *ngIf="detail.caption" class="textDt" [innerHTML]="detail.caption"></p>
   </div>
-    <button type="button" class="btn-left" (click)="goBack()">Back to List</button>
+  <div style="display: flex; text-transform: uppercase;">
+    <a class="btn-slice" (click)="goBack()">
+      <div class="top"><span>Back to List</span></div>
+      <div class="bottom"><span>Back to List</span></div>
+    </a>
+  </div>

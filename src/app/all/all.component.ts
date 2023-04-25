@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MainModel } from '../shared/main-model';
+import { Location } from '@angular/common';
 import { AllItems } from '../shared/all-items';
 import { AllService } from '../services/all.service';
 import { ActivatedRoute } from '@angular/router';
@@ -23,7 +24,8 @@ export class AllComponent implements OnInit {
 
   constructor(
     private allService: AllService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private location: Location
   ) { }
 
   ngOnInit() {
@@ -108,5 +110,8 @@ export class AllComponent implements OnInit {
     this.categoryMonitors = false;
     this.categoryEDC = false;
     this.categoryOther = true;
+  }
+  goBack(): void{
+    this.location.back();
   }
 }

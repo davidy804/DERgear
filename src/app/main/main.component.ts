@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Location } from '@angular/common';
 import { MainModel } from '../shared/main-model';
 import { MainItems } from '../shared/main-items';
 import { MainService } from '../services/main.service';
@@ -15,7 +16,8 @@ export class MainComponent implements OnInit {
 
   constructor(
     private mainService: MainService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private location: Location
   ) { }
 
   ngOnInit() {
@@ -28,5 +30,8 @@ export class MainComponent implements OnInit {
   }
   getMains(): void {
     this.mainService.getMains().subscribe(data=>this.mains=data);
+  }
+  goBack(): void{
+    this.location.back();
   }
 }
