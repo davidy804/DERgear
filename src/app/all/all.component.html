@@ -35,7 +35,7 @@
               <div class="imgBx">
                   <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
                   <div class="content">
-                    <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
+                    <a routerLink="/details/{{all.id}}" routerLinkActive="active"><h2>{{all.name}}<br><span>{{all.description}}</span></h2></a>
                 </div>
               </div>
           </div>
@@ -52,8 +52,7 @@
               <div class="imgBx">
                   <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
                   <div class="content">
-                    <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
-                </div>
+                    <a routerLink="/details/{{all.id}}" routerLinkActive="active"><h2>{{all.name}}<br><span>{{all.description}}</span></h2></a>                </div>
               </div>
           </div>
         </div>
@@ -69,8 +68,7 @@
               <div class="imgBx">
                   <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
                   <div class="content">
-                    <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
-                </div>
+                    <a routerLink="/details/{{all.id}}" routerLinkActive="active"><h2>{{all.name}}<br><span>{{all.description}}</span></h2></a>                </div>
               </div>
           </div>
         </div>
@@ -86,8 +84,7 @@
               <div class="imgBx">
                   <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
                   <div class="content">
-                    <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
-                </div>
+                    <a routerLink="/details/{{all.id}}" routerLinkActive="active"><h2>{{all.name}}<br><span>{{all.description}}</span></h2></a>                </div>
               </div>
           </div>
         </div>
@@ -103,8 +100,7 @@
               <div class="imgBx">
                   <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
                   <div class="content">
-                    <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
-                </div>
+                    <a routerLink="/details/{{all.id}}" routerLinkActive="active"><h2>{{all.name}}<br><span>{{all.description}}</span></h2></a>                </div>
               </div>
           </div>
         </div>
@@ -120,17 +116,16 @@
               <div class="imgBx">
                   <a routerLink="/details/{{all.id}}" routerLinkActive="active"><img src="{{all.imgSrc}}" class="fitImg"></a>
                   <div class="content">
-                    <h2>{{all.name}}<br><span>{{all.description}}</span></h2>
-                </div>
+                    <a routerLink="/details/{{all.id}}" routerLinkActive="active"><h2>{{all.name}}<br><span>{{all.description}}</span></h2></a>                </div>
               </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <a href="all#"><div class="scroll-up" style="z-index: 100; opacity: 50%;" title="Back to Top"></div></a>
+  <a href="all#"><div class="scroll-up" title="Back to Top"></div></a>
   <div style="display: flex; text-transform: uppercase;">
-    <a class="btn-slice" style="left: 1%; bottom: 5%" (click)="goBack()">
+    <a class="btn-slice" (click)="goBack()">
       <div class="top"><span>Back to Home</span></div>
       <div class="bottom"><span>Back to Home</span></div>
     </a>
