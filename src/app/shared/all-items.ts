@@ -6,6 +6,7 @@ import { MainModel } from "./main-model";
 // 200-299 = keyboards
 // 300-399 = audio
 // 400-499 = monitors
+// 700-799 = watches
 // 500-599 = edc
 // 600-699 = other
 
@@ -407,7 +408,7 @@ export const AllItems: MainModel[] = [
 },
 //////////********** Audio **********//////////
 {
-  id: '309',
+  id: '308',
   type: 'Audio',
   name: 'Audio Technica ATH-AD900x',
   description: 'Warm / Open',
@@ -423,6 +424,28 @@ export const AllItems: MainModel[] = [
       <strong>Comfort:</strong> <br> This headphone is for large heads. The "air wings" does not have enough tension to sit on my head. I rubberband modded this part to fit my head better. The earcups are very large and can fit anyone's head. It may be too big for smaller heads, but it's comfortable. The earpads are also a bit thin, which makes it even more difficult to fit my small head.
       <br> <br>
       <strong>Conclusions:</strong> <br> A comfortable headphone for large heads that is good for competitive gaming. For music, it is decent overall. Depending on the genre, these could shine. They work well with songs that focus on clarity around the mids with tight bass. It lacks in the low end, so hip-hop and bass edm feel a little empty. The extremely big and open soundstage with great imaging and depth makes this perfect for competitive gaming. It also is extremely light and comfortable to wear for long hours.
+      <br> <br>
+      `
+    }
+  ],
+},
+{
+  id: '309',
+  type: 'Audio',
+  name: 'Koss PortaPros',
+  description: 'Warm / Open',
+  imgSrc: './assets/images/portapros.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Curve:</strong> <br> Neutral, leaning warm
+      <br> <br>
+      <strong>Sound Quality:</strong> <br>
+      <br> <br>
+      <strong>Comfort:</strong> <br> Very light and comfortable. The band is thin and the pads sit on your ears, so they don't stay on your head if you're moving around a lot.
+      <br> <br>
+      <strong>Conclusions:</strong> <br>
       <br> <br>
       `
     }
@@ -462,7 +485,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      Not a review, just some thoughts: <br>
+      <strong>Not a review, just some thoughts:</strong><br>
       It has decent quality for an IEM. The soundstage is small. The clarity is not there. The lows are not there. The highs are a bit piercing. The mids are fine. Overall, it is a decent sounding IEM. The problem with IEMs are that they just sound a little smushed, like all frequencies come from the same plane. It's hard to listen to when there are lots of sounds going on at once. These are very sensitive. Which means if there is a little bit of interference, you'll hear some static.
       `
     }
@@ -498,7 +521,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      Not a review, just some thoughts: <br>
+      <strong>Not a review, just some thoughts:</strong><br>
       Microphone quality is ever so slightly better. I'm pretty sure it's just the XLR cable upgrade that improved the quality, not the actual interface. The ability to control volumes is the best part of having an audio interface. It is so conveinent having volume knobs right at my fingertips. For ~$20, it was worth it.
       `
     }
@@ -543,6 +566,76 @@ export const AllItems: MainModel[] = [
       <strong>Quality:</strong> <br> My first monitor's LCD started to peel from the top after about 2 years. Dell sent a replacement and it has been working flawlessly for ~4+ years. The stand is solid with great adustability.
       <br> <br>
       <strong>Conclusion:</strong> <br> This is probably my favorite purchase in all my gear. I spent $500 for this monitor and I'd do it again. (You can get this monitor for a lot less nowadays) I went from 1080p 60hz to 1440p 144hz. The upgrade was huge. I have a 1080p 240hz monitor, and the lower resolution feels bad. 240hz compared to 144hz is not that big of a deal for me, despite playing mostly competitive games. My PC does not maintain 240 fps on all games, so I do not get 240hz all the time anyways. Dell has great colors and quality. This is a TN panel, but I like this monitor better than an IPS. I'd recommend this monitor or something with similar specs and quality to anyone.
+      `
+    }
+  ],
+},
+//////////********** Watches **********//////////
+{
+  id: '797',
+  type: 'Watches',
+  name: 'Orient Kamasu',
+  description: 'Automatic / Dive',
+  imgSrc: '/assets/images/kamasu.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Specs:</strong> <br> Model: <br>Case Diameter: <br>Lug to Lug: <br>Lug Width: <br>Material:
+      <br> <br>
+      <strong>Movement:</strong> <br> Automatic
+      <br> <br>
+      <strong>Dial:</strong> <br>
+      <br> <br>
+      <strong>Band:</strong> <br>
+      <br> <br>
+      <strong>Conclusions:</strong> <br>
+      `
+    }
+  ],
+},
+{
+  id: '798',
+  type: 'Watches',
+  name: 'Seiko "Urushi"',
+  description: 'Automatic / Dress',
+  imgSrc: '/assets/images/sarx029.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Specs:</strong> <br> Model: SARX029<br>Case Diameter: 40.5mm<br>Lug to Lug: 47mm<br>Lug Width: 20mm<br>Material: Stainless steel case with sapphire crystal
+      <br> <br>
+      <strong>Movement:</strong> <br> Automatic
+      <br> <br>
+      <strong>Dial:</strong> <br> Black urushi lacquer with date window. Silver roman numerals with gold leaf hands and cresent moon counterweight.
+      <br> <br>
+      <strong>Band:</strong> <br> Genuine Crocodile skin
+      <br> <br>
+      <strong>Conclusions:</strong> <br> My grail. The moment I saw this watch, I knew I wanted it. When I saw this watch, I was very new to watches. I did not think I would spend this much (~$1000) on a watch. The watch has a classy elegance to it. This watch is handmade by Japanese artisans using a tree sap from an urushi tree. The dark, glossy, liquid-like dial is the star of the show. The roman numerals and gold hands contrast with the black to emphasize its unbelievably deep black dial. The cresent moon counterweight on the seconds hand gives it an elegant and refined look. It is such a beautiful watch. I knew that no matter what other watches I would own, I had to have this one. The Seiko "Urushi" is my first automatic watch and my endgame watch.
+      `
+    }
+  ],
+},
+{
+  id: '799',
+  type: 'Watches',
+  name: 'Daniel Wellington',
+  description: 'Quartz / Minimal',
+  imgSrc: '/assets/images/dw.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Specs:</strong> <br> Case Diameter: <br>Lug to Lug: <br>Lug Width: <br>Material:
+      <br> <br>
+      <strong>Movement:</strong> <br> Quartz
+      <br> <br>
+      <strong>Dial:</strong> <br>
+      <br> <br>
+      <strong>Band:</strong> <br>
+      <br> <br>
+      <strong>Conclusions:</strong> <br>
       `
     }
   ],
@@ -677,7 +770,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      Not a review, just some thoughts: <br>
+      <strong>Not a review, just some thoughts:</strong><br>
       This thing sucks, but it hasn't broke on me yet and I don't need a webcam. It is low resolution and blurry. It needs a lot of light to still look bad. It has a low frame rate. It sucks, but it has been working for almost 10 years now. I have been looking for an excuse to buy a new one, but I just don't use a webcam for anything.
       `
     }
@@ -693,7 +786,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      Not a review, just some thoughts: <br>
+      <strong>Not a review, just some thoughts:</strong><br>
       I use it as a media player. It's only programmable through QMK, which is okay. I wish it could be programmed through VIA. The RGB is very nice. It's very bright and has a lot of different modes. I'd use it if I liked RGB. The keycaps and layout feel nice. I don't have a use for half the buttons. It is nice having dedicated buttons for media keys, especially because I switch keyboards with different layouts so often. I won this from a giveaway. I would not purchase this on my own. $80 for media keys? If I used macros or streamed, then it might be worth it. But then there are products like the Elgado Stream Deck, which looks better and has more functionality.
       `
     }
@@ -742,6 +835,22 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Conclusions:</strong> <br> A driver's car with a luxury design. The materials, design, and features makes it feel luxurious. The tight driving experience and lack of some driving features makes this a driver's car. This car is for a single person or a couple. It is a compact car at the end of the day. There is not enough space for a family. This is a great everyday sedan for a young person that loves premium materials and a premium driving experience.
       <br> <br>
+      `
+    }
+  ],
+},
+{
+  id: '604',
+  type: 'Other',
+  name: 'KAMIER Watch Box',
+  description: 'Acrylic / Wood',
+  imgSrc: './assets/images/kamier.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Not a review, just some thoughts:</strong><br>
+      A watch display with a drawer that holds 6 watches. The drawer has a section that can hold jewlery and an open section. The inside of the drawer is lined with felt. The watch pillows are faux leather. The watches fit snug so they don't move around much. They are separated enough to fit larger watches without them touching. This doesn't have any hinges, so you don't have to worry about it breaking. You have to take off the entire acrylic to get to your watches, which is a fingerprint magnet. I love how it is more of a display than your typical watch box. It looks a lot better than it actually feels. You can tell the materials and build are cheap. It has good value for a watch display.
       `
     }
   ],

@@ -184,6 +184,32 @@ export const MainItems: MainModel[] = [
   ],
 },
 {
+  id: '797',
+  type: 'Watch',
+  name: 'Orient Kamasu',
+  description: 'Automatic / Dive',
+  imgSrc: '/assets/images/kamasu.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: ''
+    }
+  ],
+},
+{
+  id: '604',
+  type: 'Watch Storage',
+  name: 'KAMIER Watch Box',
+  description: 'Acrylic / Wood',
+  imgSrc: './assets/images/kamier.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: ''
+    }
+  ],
+},
+{
   id: '600',
   type: 'Webcam',
   name: 'Microsoft Webcam',

@@ -19,6 +19,7 @@ export class AllComponent implements OnInit {
   categoryKeyboards: boolean = true;
   categoryAudio: boolean = true;
   categoryMonitors: boolean = true;
+  categoryWatches: boolean = true;
   categoryEDC: boolean = true;
   categoryOther: boolean = true;
 
@@ -45,6 +46,7 @@ export class AllComponent implements OnInit {
     this.categoryKeyboards = true;
     this.categoryAudio = true;
     this.categoryMonitors = true;
+    this.categoryWatches = true;
     this.categoryEDC = true;
     this.categoryOther = true;
   }
@@ -54,6 +56,7 @@ export class AllComponent implements OnInit {
     this.categoryKeyboards = false;
     this.categoryAudio = false;
     this.categoryMonitors = false;
+    this.categoryWatches = false;
     this.categoryEDC = false;
     this.categoryOther = false;
   }
@@ -63,6 +66,7 @@ export class AllComponent implements OnInit {
     this.categoryKeyboards = false;
     this.categoryAudio = false;
     this.categoryMonitors = false;
+    this.categoryWatches = false;
     this.categoryEDC = false;
     this.categoryOther = false;
   }
@@ -72,6 +76,7 @@ export class AllComponent implements OnInit {
     this.categoryKeyboards = true;
     this.categoryAudio = false;
     this.categoryMonitors = false;
+    this.categoryWatches = false;
     this.categoryEDC = false;
     this.categoryOther = false;
   }
@@ -81,6 +86,7 @@ export class AllComponent implements OnInit {
     this.categoryKeyboards = false;
     this.categoryAudio = true;
     this.categoryMonitors = false;
+    this.categoryWatches = false;
     this.categoryEDC = false;
     this.categoryOther = false;
   }
@@ -90,6 +96,17 @@ export class AllComponent implements OnInit {
     this.categoryKeyboards = false;
     this.categoryAudio = false;
     this.categoryMonitors = true;
+    this.categoryWatches = false;
+    this.categoryEDC = false;
+    this.categoryOther = false;
+  }
+  showWatches(){
+    this.categoryMice = false;
+    this.categoryMousepads = false;
+    this.categoryKeyboards = false;
+    this.categoryAudio = false;
+    this.categoryMonitors = false;
+    this.categoryWatches = true;
     this.categoryEDC = false;
     this.categoryOther = false;
   }
@@ -99,6 +116,7 @@ export class AllComponent implements OnInit {
     this.categoryKeyboards = false;
     this.categoryAudio = false;
     this.categoryMonitors = false;
+    this.categoryWatches = false;
     this.categoryEDC = true;
     this.categoryOther = false;
   }
@@ -108,6 +126,7 @@ export class AllComponent implements OnInit {
     this.categoryKeyboards = false;
     this.categoryAudio = false;
     this.categoryMonitors = false;
+    this.categoryWatches = false;
     this.categoryEDC = false;
     this.categoryOther = true;
   }
