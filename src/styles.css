@@ -19,6 +19,7 @@ section
   position: relative;
   padding: 100px;
   font-family: 'Poppins', sans-serif;
+  color: #fff;
 }
 .header
 {
@@ -115,11 +116,11 @@ section
   }
 }
 .banner .content:after{
-  animation: glitchBotom 3s linear infinite;
+  animation: glitchBottom 3s linear infinite;
   clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
 }
-@keyframes glitchBotom{
+@keyframes glitchBottom{
   2%,64%{
     transform: translate(-2px,0);
   }

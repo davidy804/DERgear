@@ -41,6 +41,19 @@ export const MainItems: MainModel[] = [
   ],
 },
 {
+  id: '210',
+  type: '0xC.pad',
+  name: 'Macropad',
+  description: 'Macropad',
+  imgSrc: './assets/images/0xCpad.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: ''
+    }
+  ],
+},
+{
   id: '309',
   type: 'Headphones',
   name: 'Audio Technica ATH-AD900x',
@@ -197,9 +210,9 @@ export const MainItems: MainModel[] = [
   ],
 },
 {
-  id: '604',
+  id: '750',
   type: 'Watch Storage',
-  name: 'KAMIER Watch Box',
+  name: 'KAMIER Watch Display',
   description: 'Acrylic / Wood',
   imgSrc: './assets/images/kamier.png',
   details: [
@@ -215,19 +228,6 @@ export const MainItems: MainModel[] = [
   name: 'Microsoft Webcam',
   description: '720p / 30 fps',
   imgSrc: './assets/images/lifecamhd3000.png',
-  details: [
-    {
-      imgSrc: '',
-      caption: ''
-    }
-  ],
-},
-{
-  id: '601',
-  type: '0xC.pad',
-  name: 'Macropad',
-  description: 'Macropad',
-  imgSrc: './assets/images/0xCpad.png',
   details: [
     {
       imgSrc: '',

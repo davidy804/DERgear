@@ -406,6 +406,22 @@ export const AllItems: MainModel[] = [
     }
   ],
 },
+{
+  id: '210',
+  type: 'Keyboard',
+  name: '0xC.pad',
+  description: 'Macropad',
+  imgSrc: './assets/images/0xCpad.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Not a review, just some thoughts:</strong><br>
+      I use it as a media player. It's only programmable through QMK, which is okay. I wish it could be programmed through VIA. The RGB is very nice. It's very bright and has a lot of different modes. I'd use it if I liked RGB. The keycaps and layout feel nice. I don't have a use for half the buttons. It is nice having dedicated buttons for media keys, especially because I switch keyboards with different layouts so often. I won this from a giveaway. I would not purchase this on my own. $80 for media keys? If I used macros or streamed, then it might be worth it. But then there are products like the Elgado Stream Deck, which looks better and has more functionality.
+      `
+    }
+  ],
+},
 //////////********** Audio **********//////////
 {
   id: '308',
@@ -417,7 +433,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Curve:</strong> <br> Warm with bass boost
+      <strong>Curve:</strong> <br> Warm
       <br> <br>
       <strong>Sound Quality:</strong> <br> The highs and mids are very clear. The low end is lacking. The bass is very tight and does not slap. The soundstage is huge and airy. The imaging and depth is the best I've heard on any headphone. Clairity and timber is above average.
       <br> <br>
@@ -432,7 +448,7 @@ export const AllItems: MainModel[] = [
 {
   id: '309',
   type: 'Audio',
-  name: 'Koss PortaPros',
+  name: 'Koss Porta Pro',
   description: 'Warm / Open',
   imgSrc: './assets/images/portapros.png',
   details: [
@@ -441,11 +457,11 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>Curve:</strong> <br> Neutral, leaning warm
       <br> <br>
-      <strong>Sound Quality:</strong> <br>
+      <strong>Sound Quality:</strong> <br> Great detail. Bass is impressive for its size. The mids and highs can be drowned out by the bass in specific situations. Surprisingly airy with lots of detail. Sound quality is competing with upper mid-fi headphones.
       <br> <br>
-      <strong>Comfort:</strong> <br> Very light and comfortable. The band is thin and the pads sit on your ears, so they don't stay on your head if you're moving around a lot.
+      <strong>Comfort:</strong> <br> Very light and comfortable. The band has a firm and tight option. Personally the firm feels more comfortable and stays on my head for the most part. The stock pads are soft and light, but they are thin and get worn down easily. The Yaxi pads are bigger, thicker, and more comfortable.
       <br> <br>
-      <strong>Conclusions:</strong> <br>
+      <strong>Conclusions:</strong> <br> The fun brother of the KSC75. This is basically a KSC75, but with more bass and less mids. It also comes with a surprisingly good band. Replacing the stock pads with Yaxi pads really does balance out the sound signature. It's also much more comfortable with the bigger and thicker pads. The Koss Porta Pro and KSC75 are the go to recommendation because of their cheap price and mid-fi level sound quality.
       <br> <br>
       `
     }
@@ -585,11 +601,11 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Movement:</strong> <br> Automatic
       <br> <br>
-      <strong>Dial:</strong> <br>
+      <strong>Dial:</strong> <br> Beautiful dark green sunburst dial. Indoors the watch basically looks black. In bright lighting or when the sun is shining, the green starts to show and it plays with the light. The combination of baton numbers and arrow hands looks okay. The red arrow on the seconds hand is a nice touch. The day-date feature is nice to have and looks fine. The bezel is curved in a way where it is a bit hard to grip and turn. The bezel design makes this watch wear smaller than a normal diver.
       <br> <br>
-      <strong>Band:</strong> <br>
+      <strong>Band:</strong> <br> Simple metal band. Not particularly good. Mine is squeaky and catches on my arm hair. Switching the band is highly recommended. I am currently using a grey NATO strap.
       <br> <br>
-      <strong>Conclusions:</strong> <br>
+      <strong>Conclusions:</strong> <br> An incredible value dive watch. It has all the features you'd want for a pretty low price. A solid automatic movement, sapphire crystal, great water resistance, and interesting dial. It wears small because of it's lug to lug size and the curved bezel and case design. The band feels like the only thing Orient did not put time into, but that is easily fixable. The Orient Kamasu is a feature heavy diver with incredible value.
       `
     }
   ],
@@ -631,11 +647,27 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Movement:</strong> <br> Quartz
       <br> <br>
-      <strong>Dial:</strong> <br>
+      <strong>Dial:</strong> <br> Minimal white dial. It's a plain dial with not much going for it. My version has silver hands which match the silver case. It does not stand out at all.
       <br> <br>
-      <strong>Band:</strong> <br>
+      <strong>Band:</strong> <br> The leather band shows its age. It wears down easily. The black leather starts to appear grey and creases show where the clasps connect.
       <br> <br>
-      <strong>Conclusions:</strong> <br>
+      <strong>Conclusions:</strong> <br> This watch is plain. There isn't anything that stands out. It's on the expensive side for a minimal quartz watch. I would not recommend anyone purchase this watch as there are way more, better options in its price range.
+      `
+    }
+  ],
+},
+{
+  id: '750',
+  type: 'Watches',
+  name: 'KAMIER Watch Display',
+  description: 'Acrylic / Wood',
+  imgSrc: './assets/images/kamier.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Not a review, just some thoughts:</strong><br>
+      A watch display with a drawer that holds 6 watches. The drawer has a section that can hold jewlery and an open section. The inside of the drawer is lined with felt. The watch pillows are faux leather. The watches fit snug so they don't move around much. They are separated enough to fit larger watches without them touching. This doesn't have any hinges, so you don't have to worry about it breaking. You have to take off the entire acrylic to get to your watches, which is a fingerprint magnet. I love how it is more of a display than your typical watch box. It looks a lot better than it actually feels. You can tell the materials and build are cheap. It has good value for a watch display.
       `
     }
   ],
@@ -777,22 +809,6 @@ export const AllItems: MainModel[] = [
   ],
 },
 {
-  id: '601',
-  type: 'Other',
-  name: '0xC.pad',
-  description: 'Macropad',
-  imgSrc: './assets/images/0xCpad.png',
-  details: [
-    {
-      imgSrc: '',
-      caption: `
-      <strong>Not a review, just some thoughts:</strong><br>
-      I use it as a media player. It's only programmable through QMK, which is okay. I wish it could be programmed through VIA. The RGB is very nice. It's very bright and has a lot of different modes. I'd use it if I liked RGB. The keycaps and layout feel nice. I don't have a use for half the buttons. It is nice having dedicated buttons for media keys, especially because I switch keyboards with different layouts so often. I won this from a giveaway. I would not purchase this on my own. $80 for media keys? If I used macros or streamed, then it might be worth it. But then there are products like the Elgado Stream Deck, which looks better and has more functionality.
-      `
-    }
-  ],
-},
-{
   id: '602',
   type: 'Other',
   name: 'Herman Miller Aeron',
@@ -822,12 +838,12 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Exterior:</strong> <br> The polymer gray has different hues depending on lighting. It's gray with a blue-green undertone. Lightly tinted windows and blacked out 18 inch wheels. The design is beautiful. There aren't many sharp lines. It is smooth and refined.
+      <strong>Exterior:</strong> <br> The polymer gray has different hues depending on lighting. It's gray with a blue-green undertone. Chrome trim around the front grill and windows and blacked out 18 inch wheels. The design is beautiful. There aren't many sharp lines. It is smooth and refined.
       <br> <br>
       <strong>Interior:</strong> <br> The red leather seats was a huge selling point for me. There are premium materials all over the interior, lots of soft leather.
         <br> Lots of safety features. Tactile satisfying knobs for HVAC and volume. Heated front seats.
-        <br> Infotainment system is controlled by a single knob by the center console. It's actually very nice and comfortable to use. It has wired Android Auto and Apple Car Play.
-        <br> The Bose speaker system is amazing. The clarity is the best I've heard in any audio system. It is lacking in the low ends (bass) because it is a compact car with a small subwoofer. The bass is very tight, but doesn't slap.
+        <br> Infotainment system is controlled by a knob by the center console. It's actually very nice and comfortable to use. It has wired Android Auto and Apple Car Play.
+        <br> The Bose speaker system is amazing. The clarity is the best I've heard in any audio system. It is lacking in the low end (bass) because it is a compact car with a small subwoofer. The bass is very tight, but doesn't slap. It's very clearly a neutral sound signature.
       <br> <br>
       <strong>Drive:</strong> <br> It's a tight driving experience. The cabin is very quiet, even when on the highway. This car does not take bumps well. You can feel most bumps, but it's very comfortable on smooth roads. This is because of the 18 inch wheels and tight suspension. The automatic gear shift sometimes misses. It'll be very early or very late on the shifts, but there is a manual shift up/down mode. It zooms compared to other cars in it's category.
       <br> <br>
@@ -840,17 +856,33 @@ export const AllItems: MainModel[] = [
   ],
 },
 {
-  id: '604',
+  id: '699',
   type: 'Other',
-  name: 'KAMIER Watch Box',
-  description: 'Acrylic / Wood',
-  imgSrc: './assets/images/kamier.png',
+  name: 'Computer',
+  description: 'PC',
+  imgSrc: './assets/images/pc.png',
   details: [
     {
       imgSrc: '',
       caption: `
-      <strong>Not a review, just some thoughts:</strong><br>
-      A watch display with a drawer that holds 6 watches. The drawer has a section that can hold jewlery and an open section. The inside of the drawer is lined with felt. The watch pillows are faux leather. The watches fit snug so they don't move around much. They are separated enough to fit larger watches without them touching. This doesn't have any hinges, so you don't have to worry about it breaking. You have to take off the entire acrylic to get to your watches, which is a fingerprint magnet. I love how it is more of a display than your typical watch box. It looks a lot better than it actually feels. You can tell the materials and build are cheap. It has good value for a watch display.
+      <strong>THIS INFORMATION IS NOT CORRECT. CURRENT DATA IS ONLY A PLACEHOLDER UNTIL REAL DATA IS ENTERED IN.</strong>
+      <br> <br>
+      <strong>Case:</strong> <br> NZXT H10
+      <br> <br>
+      <strong>Power Supply:</strong> <br> Corsair 850W Gold
+      <br> <br>
+      <strong>Motherboard:</strong> <br> ASUS Z170
+      <br> <br>
+      <strong>Storage:</strong> <br> Samsung EVO 850 500GB <br> Crucial 1TB m.2 NVME 3rd gen
+      <br> <br>
+      <strong>RAM:</strong> <br>
+      <br> <br>
+      <strong>CPU:</strong> <br> Intel i7 6700k
+      <br> <br>
+      <strong>CPU Cooler:</strong> <br>
+      <br> <br>
+      <strong>GPU:</strong> <br> NVIDIA GTX 980ti
+      <br> <br>
       `
     }
   ],
