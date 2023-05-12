@@ -671,10 +671,6 @@ section
   {
     padding: 40px;
   }
-  .header
-  {
-    position: relative;
-  }
   .banner
   {
     font-size: 56px;
@@ -730,6 +726,10 @@ section
   .project .projectList .box .imgBx
   {
     height: 350px;
+  }
+  .main
+  {
+    margin-top: 10%;
   }
   .main .mainList
   {
