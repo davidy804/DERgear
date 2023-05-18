@@ -332,7 +332,7 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Sound Profile:</strong> <br> Loud, Clacky, Poppy
       <br> <br>
-      <strong>Conclusions:</strong> <br> A high premium stacked acrylic alice style keyboard with a long pole sound profile. It has a great underglow and skeleton plate aesthetic. The alice layout was easy to get used to since I touch type with most of my fingers. I did have problems with the B and Y keys. I use both hands to type B and Y, depending on the word. It has some getting used to, but not much. My WPM is about the same no matter the layout.
+      <strong>Conclusions:</strong> <br> A premium stacked acrylic alice style keyboard with a long pole sound profile. It has a great underglow and skeleton plate aesthetic. The alice layout was easy to get used to since I touch type with most of my fingers. I did have problems with the B and Y keys. I use both hands to type B and Y, depending on the word. It has some getting used to, but not much. My WPM is about the same no matter the layout.
       `
     }
   ],
@@ -355,7 +355,7 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Sound Profile:</strong> <br> Quiet, Poppy, Marbly
       <br> <br>
-      <strong>Conclusions:</strong> <br> A high premium 65% with a poppy sound profile. This board does not need to be tape modded. It is not hollow or metallic sounding at all. I tape modded this because this is a prototype keyboard with third party gaskets that do not fit well. The PCB shorts when pressed down hard enough. The tape mod prevents the shorting. It still sounds good with the tape mod. It gives it more of a marbly, PE foam sound.
+      <strong>Conclusions:</strong> <br> A premium 65% with a poppy sound profile. This board does not need to be tape modded. It is not hollow or metallic sounding at all. I tape modded this because this is a prototype keyboard with third party gaskets that do not fit well. The PCB shorts when pressed down hard enough. The tape mod prevents the shorting. It still sounds good with the tape mod. It gives it more of a marbly, PE foam sound.
       `
     }
   ],
@@ -538,7 +538,7 @@ export const AllItems: MainModel[] = [
       imgSrc: '',
       caption: `
       <strong>Not a review, just some thoughts:</strong><br>
-      Microphone quality is ever so slightly better. I'm pretty sure it's just the XLR cable upgrade that improved the quality, not the actual interface. The ability to control volumes is the best part of having an audio interface. It is so conveinent having volume knobs right at my fingertips. For ~$20, it was worth it.
+      Microphone quality is ever so slightly better. The ability to control volumes is the best part of having an audio interface. It is so conveinent having volume knobs right at my fingertips. For ~$20, it was worth it.
       `
     }
   ],
