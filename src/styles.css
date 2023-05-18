@@ -19,6 +19,7 @@ section
   position: relative;
   padding: 100px;
   font-family: 'Poppins', sans-serif;
+  color: #fff;
 }
 .header
 {
@@ -42,7 +43,7 @@ section
 .header .logo:hover
 {
   transform: scale(1.2);
-  transition: ease-in-out 150ms;
+  transition: ease-in-out 250ms;
 }
 .banner
 {
@@ -115,11 +116,11 @@ section
   }
 }
 .banner .content:after{
-  animation: glitchBotom 3s linear infinite;
+  animation: glitchBottom 3s linear infinite;
   clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
 }
-@keyframes glitchBotom{
+@keyframes glitchBottom{
   2%,64%{
     transform: translate(-2px,0);
   }
@@ -176,7 +177,7 @@ section
   border-radius: 50px;
   cursor: pointer;
   z-index: 9999;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .scroll-up:before,.scroll-up:after
 {
@@ -230,47 +231,6 @@ section
   width: 100%;
   height: 100%;
   object-fit: contain;
-}
-.about
-{
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.about .contentBx
-{
-  min-width: 50%;
-  width: 50%;
-  text-align: end;
-  padding-right: 40px;
-}
-.about .contentBx2
-{
-  min-width: 50%;
-  width: 50%;
-  text-align: start;
-  padding-left: 40px;
-}
-.titleText
-{
-  font-weight: 600;
-  color: #fff;
-  font-size: 2em;
-  margin-block: 2%;
-}
-.text
-{
-  color: #fff;
-  font-size: 1em;
-}
-.about .imgBx
-{
-  position: relative;
-  min-width: 50%;
-  width: 50%;
-  min-height: 500px;
 }
 .project
 {
@@ -428,7 +388,7 @@ section
   bottom: 5%;
   left: 5%;
   z-index: 99999;
-  opacity: 0.6;
+  opacity: 0.8;
   cursor: pointer;
 
   -webkit-transition: all 1000ms cubic-bezier(0.890, 0, 0.140, 1); /* older webkit */
@@ -621,7 +581,6 @@ section
 {
   color: #fff;
 }
-
 .footer
 {
   display: flex;
@@ -712,44 +671,10 @@ section
   {
     padding: 40px;
   }
-  .header
-  {
-    position: relative;
-  }
   .banner
   {
     font-size: 56px;
     letter-spacing: 5px;
-  }
-  .banner .content h2
-  {
-    font-size: 2.5em;
-  }
-  .banner .content p
-  {
-    font-size: 1em;
-  }
-  .about
-  {
-    flex-direction: column;
-  }
-  .about .contentBx, .about .imgBx
-  {
-    min-width: 100%;
-    width: 100%;
-    text-align: center;
-    padding-right: 0px;
-  }
-  .about .contentBx2
-  {
-    min-width: 100%;
-    width: 100%;
-    text-align: center;
-    padding-left: 0px;
-  }
-  .about .imgBx
-  {
-    min-height: 250px;
   }
   .scroll-up
   {
@@ -801,6 +726,10 @@ section
   .project .projectList .box .imgBx
   {
     height: 350px;
+  }
+  .main
+  {
+    margin-top: 10%;
   }
   .main .mainList
   {

@@ -41,6 +41,19 @@ export const MainItems: MainModel[] = [
   ],
 },
 {
+  id: '210',
+  type: '0xC.pad',
+  name: 'Macropad',
+  description: 'Macropad',
+  imgSrc: './assets/images/0xCpad.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: ''
+    }
+  ],
+},
+{
   id: '309',
   type: 'Headphones',
   name: 'Audio Technica ATH-AD900x',
@@ -184,11 +197,11 @@ export const MainItems: MainModel[] = [
   ],
 },
 {
-  id: '600',
-  type: 'Webcam',
-  name: 'Microsoft Webcam',
-  description: '720p / 30 fps',
-  imgSrc: './assets/images/lifecamhd3000.png',
+  id: '797',
+  type: 'Watch',
+  name: 'Orient Kamasu',
+  description: 'Automatic / Dive',
+  imgSrc: '/assets/images/kamasu.png',
   details: [
     {
       imgSrc: '',
@@ -197,11 +210,24 @@ export const MainItems: MainModel[] = [
   ],
 },
 {
-  id: '601',
-  type: '0xC.pad',
-  name: 'Macropad',
-  description: 'Macropad',
-  imgSrc: './assets/images/0xCpad.png',
+  id: '750',
+  type: 'Watch Storage',
+  name: 'KAMIER Watch Display',
+  description: 'Acrylic / Wood',
+  imgSrc: './assets/images/kamier.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: ''
+    }
+  ],
+},
+{
+  id: '600',
+  type: 'Webcam',
+  name: 'Microsoft Webcam',
+  description: '720p / 30 fps',
+  imgSrc: './assets/images/lifecamhd3000.png',
   details: [
     {
       imgSrc: '',

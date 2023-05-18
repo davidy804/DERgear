@@ -6,6 +6,7 @@ import { MainModel } from "./main-model";
 // 200-299 = keyboards
 // 300-399 = audio
 // 400-499 = monitors
+// 700-799 = watches
 // 500-599 = edc
 // 600-699 = other
 
@@ -405,9 +406,25 @@ export const AllItems: MainModel[] = [
     }
   ],
 },
+{
+  id: '210',
+  type: 'Keyboard',
+  name: '0xC.pad',
+  description: 'Macropad',
+  imgSrc: './assets/images/0xCpad.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Not a review, just some thoughts:</strong><br>
+      I use it as a media player. It's only programmable through QMK, which is okay. I wish it could be programmed through VIA. The RGB is very nice. It's very bright and has a lot of different modes. I'd use it if I liked RGB. The keycaps and layout feel nice. I don't have a use for half the buttons. It is nice having dedicated buttons for media keys, especially because I switch keyboards with different layouts so often. I won this from a giveaway. I would not purchase this on my own. $80 for media keys? If I used macros or streamed, then it might be worth it. But then there are products like the Elgado Stream Deck, which looks better and has more functionality.
+      `
+    }
+  ],
+},
 //////////********** Audio **********//////////
 {
-  id: '309',
+  id: '308',
   type: 'Audio',
   name: 'Audio Technica ATH-AD900x',
   description: 'Warm / Open',
@@ -416,13 +433,35 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Curve:</strong> <br> Warm with bass boost
+      <strong>Curve:</strong> <br> Warm
       <br> <br>
       <strong>Sound Quality:</strong> <br> The highs and mids are very clear. The low end is lacking. The bass is very tight and does not slap. The soundstage is huge and airy. The imaging and depth is the best I've heard on any headphone. Clairity and timber is above average.
       <br> <br>
       <strong>Comfort:</strong> <br> This headphone is for large heads. The "air wings" does not have enough tension to sit on my head. I rubberband modded this part to fit my head better. The earcups are very large and can fit anyone's head. It may be too big for smaller heads, but it's comfortable. The earpads are also a bit thin, which makes it even more difficult to fit my small head.
       <br> <br>
       <strong>Conclusions:</strong> <br> A comfortable headphone for large heads that is good for competitive gaming. For music, it is decent overall. Depending on the genre, these could shine. They work well with songs that focus on clarity around the mids with tight bass. It lacks in the low end, so hip-hop and bass edm feel a little empty. The extremely big and open soundstage with great imaging and depth makes this perfect for competitive gaming. It also is extremely light and comfortable to wear for long hours.
+      <br> <br>
+      `
+    }
+  ],
+},
+{
+  id: '309',
+  type: 'Audio',
+  name: 'Koss Porta Pro',
+  description: 'Warm / Open',
+  imgSrc: './assets/images/portapros.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Curve:</strong> <br> Neutral, leaning warm
+      <br> <br>
+      <strong>Sound Quality:</strong> <br> Great detail. Bass is impressive for its size. The mids and highs can be drowned out by the bass in specific situations. Surprisingly airy with lots of detail. Sound quality is competing with upper mid-fi headphones.
+      <br> <br>
+      <strong>Comfort:</strong> <br> Very light and comfortable. The band has a firm and tight option. Personally the firm feels more comfortable and stays on my head for the most part. The stock pads are soft and light, but they are thin and get worn down easily. The Yaxi pads are bigger, thicker, and more comfortable.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> The fun brother of the KSC75. This is basically a KSC75, but with more bass and less mids. It also comes with a surprisingly good band. Replacing the stock pads with Yaxi pads really does balance out the sound signature. It's also much more comfortable with the bigger and thicker pads. The Koss Porta Pro and KSC75 are the go to recommendation because of their cheap price and mid-fi level sound quality.
       <br> <br>
       `
     }
@@ -462,7 +501,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      Not a review, just some thoughts: <br>
+      <strong>Not a review, just some thoughts:</strong><br>
       It has decent quality for an IEM. The soundstage is small. The clarity is not there. The lows are not there. The highs are a bit piercing. The mids are fine. Overall, it is a decent sounding IEM. The problem with IEMs are that they just sound a little smushed, like all frequencies come from the same plane. It's hard to listen to when there are lots of sounds going on at once. These are very sensitive. Which means if there is a little bit of interference, you'll hear some static.
       `
     }
@@ -498,7 +537,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      Not a review, just some thoughts: <br>
+      <strong>Not a review, just some thoughts:</strong><br>
       Microphone quality is ever so slightly better. I'm pretty sure it's just the XLR cable upgrade that improved the quality, not the actual interface. The ability to control volumes is the best part of having an audio interface. It is so conveinent having volume knobs right at my fingertips. For ~$20, it was worth it.
       `
     }
@@ -543,6 +582,92 @@ export const AllItems: MainModel[] = [
       <strong>Quality:</strong> <br> My first monitor's LCD started to peel from the top after about 2 years. Dell sent a replacement and it has been working flawlessly for ~4+ years. The stand is solid with great adustability.
       <br> <br>
       <strong>Conclusion:</strong> <br> This is probably my favorite purchase in all my gear. I spent $500 for this monitor and I'd do it again. (You can get this monitor for a lot less nowadays) I went from 1080p 60hz to 1440p 144hz. The upgrade was huge. I have a 1080p 240hz monitor, and the lower resolution feels bad. 240hz compared to 144hz is not that big of a deal for me, despite playing mostly competitive games. My PC does not maintain 240 fps on all games, so I do not get 240hz all the time anyways. Dell has great colors and quality. This is a TN panel, but I like this monitor better than an IPS. I'd recommend this monitor or something with similar specs and quality to anyone.
+      `
+    }
+  ],
+},
+//////////********** Watches **********//////////
+{
+  id: '797',
+  type: 'Watches',
+  name: 'Orient Kamasu',
+  description: 'Automatic / Dive',
+  imgSrc: '/assets/images/kamasu.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Specs:</strong> <br> Model: <br>Case Diameter: <br>Lug to Lug: <br>Lug Width: <br>Material:
+      <br> <br>
+      <strong>Movement:</strong> <br> Automatic
+      <br> <br>
+      <strong>Dial:</strong> <br> Beautiful dark green sunburst dial. Indoors the watch basically looks black. In bright lighting or when the sun is shining, the green starts to show and it plays with the light. The combination of baton numbers and arrow hands looks okay. The red arrow on the seconds hand is a nice touch. The day-date feature is nice to have and looks fine. The bezel is curved in a way where it is a bit hard to grip and turn. The bezel design makes this watch wear smaller than a normal diver.
+      <br> <br>
+      <strong>Band:</strong> <br> Simple metal band. Not particularly good. Mine is squeaky and catches on my arm hair. Switching the band is highly recommended. I am currently using a grey NATO strap.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> An incredible value dive watch. It has all the features you'd want for a pretty low price. A solid automatic movement, sapphire crystal, great water resistance, and interesting dial. It wears small because of it's lug to lug size and the curved bezel and case design. The band feels like the only thing Orient did not put time into, but that is easily fixable. The Orient Kamasu is a feature heavy diver with incredible value.
+      `
+    }
+  ],
+},
+{
+  id: '798',
+  type: 'Watches',
+  name: 'Seiko "Urushi"',
+  description: 'Automatic / Dress',
+  imgSrc: '/assets/images/sarx029.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Specs:</strong> <br> Model: SARX029<br>Case Diameter: 40.5mm<br>Lug to Lug: 47mm<br>Lug Width: 20mm<br>Material: Stainless steel case with sapphire crystal
+      <br> <br>
+      <strong>Movement:</strong> <br> Automatic
+      <br> <br>
+      <strong>Dial:</strong> <br> Black urushi lacquer with date window. Silver roman numerals with gold leaf hands and cresent moon counterweight.
+      <br> <br>
+      <strong>Band:</strong> <br> Genuine Crocodile skin
+      <br> <br>
+      <strong>Conclusions:</strong> <br> My grail. The moment I saw this watch, I knew I wanted it. When I saw this watch, I was very new to watches. I did not think I would spend this much (~$1000) on a watch. The watch has a classy elegance to it. This watch is handmade by Japanese artisans using a tree sap from an urushi tree. The dark, glossy, liquid-like dial is the star of the show. The roman numerals and gold hands contrast with the black to emphasize its unbelievably deep black dial. The cresent moon counterweight on the seconds hand gives it an elegant and refined look. It is such a beautiful watch. I knew that no matter what other watches I would own, I had to have this one. The Seiko "Urushi" is my first automatic watch and my endgame watch.
+      `
+    }
+  ],
+},
+{
+  id: '799',
+  type: 'Watches',
+  name: 'Daniel Wellington',
+  description: 'Quartz / Minimal',
+  imgSrc: '/assets/images/dw.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Specs:</strong> <br> Case Diameter: <br>Lug to Lug: <br>Lug Width: <br>Material:
+      <br> <br>
+      <strong>Movement:</strong> <br> Quartz
+      <br> <br>
+      <strong>Dial:</strong> <br> Minimal white dial. It's a plain dial with not much going for it. My version has silver hands which match the silver case. It does not stand out at all.
+      <br> <br>
+      <strong>Band:</strong> <br> The leather band shows its age. It wears down easily. The black leather starts to appear grey and creases show where the clasps connect.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> This watch is plain. There isn't anything that stands out. It's on the expensive side for a minimal quartz watch. I would not recommend anyone purchase this watch as there are way more, better options in its price range.
+      `
+    }
+  ],
+},
+{
+  id: '750',
+  type: 'Watches',
+  name: 'KAMIER Watch Display',
+  description: 'Acrylic / Wood',
+  imgSrc: './assets/images/kamier.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Not a review, just some thoughts:</strong><br>
+      A watch display with a drawer that holds 6 watches. The drawer has a section that can hold jewlery and an open section. The inside of the drawer is lined with felt. The watch pillows are faux leather. The watches fit snug so they don't move around much. They are separated enough to fit larger watches without them touching. This doesn't have any hinges, so you don't have to worry about it breaking. You have to take off the entire acrylic to get to your watches, which is a fingerprint magnet. I love how it is more of a display than your typical watch box. It looks a lot better than it actually feels. You can tell the materials and build are cheap. It has good value for a watch display.
       `
     }
   ],
@@ -677,24 +802,8 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      Not a review, just some thoughts: <br>
+      <strong>Not a review, just some thoughts:</strong><br>
       This thing sucks, but it hasn't broke on me yet and I don't need a webcam. It is low resolution and blurry. It needs a lot of light to still look bad. It has a low frame rate. It sucks, but it has been working for almost 10 years now. I have been looking for an excuse to buy a new one, but I just don't use a webcam for anything.
-      `
-    }
-  ],
-},
-{
-  id: '601',
-  type: 'Other',
-  name: '0xC.pad',
-  description: 'Macropad',
-  imgSrc: './assets/images/0xCpad.png',
-  details: [
-    {
-      imgSrc: '',
-      caption: `
-      Not a review, just some thoughts: <br>
-      I use it as a media player. It's only programmable through QMK, which is okay. I wish it could be programmed through VIA. The RGB is very nice. It's very bright and has a lot of different modes. I'd use it if I liked RGB. The keycaps and layout feel nice. I don't have a use for half the buttons. It is nice having dedicated buttons for media keys, especially because I switch keyboards with different layouts so often. I won this from a giveaway. I would not purchase this on my own. $80 for media keys? If I used macros or streamed, then it might be worth it. But then there are products like the Elgado Stream Deck, which looks better and has more functionality.
       `
     }
   ],
@@ -729,18 +838,50 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Exterior:</strong> <br> The polymer gray has different hues depending on lighting. It's gray with a blue-green undertone. Lightly tinted windows and blacked out 18 inch wheels. The design is beautiful. There aren't many sharp lines. It is smooth and refined.
+      <strong>Exterior:</strong> <br> The polymer gray has different hues depending on lighting. It's gray with a blue-green undertone. Chrome trim around the front grill and windows and blacked out 18 inch wheels. The design is beautiful. There aren't many sharp lines. It is smooth and refined.
       <br> <br>
       <strong>Interior:</strong> <br> The red leather seats was a huge selling point for me. There are premium materials all over the interior, lots of soft leather.
         <br> Lots of safety features. Tactile satisfying knobs for HVAC and volume. Heated front seats.
-        <br> Infotainment system is controlled by a single knob by the center console. It's actually very nice and comfortable to use. It has wired Android Auto and Apple Car Play.
-        <br> The Bose speaker system is amazing. The clarity is the best I've heard in any audio system. It is lacking in the low ends (bass) because it is a compact car with a small subwoofer. The bass is very tight, but doesn't slap.
+        <br> Infotainment system is controlled by a knob by the center console. It's actually very nice and comfortable to use. It has wired Android Auto and Apple Car Play.
+        <br> The Bose speaker system is amazing. The clarity is the best I've heard in any audio system. It is lacking in the low end (bass) because it is a compact car with a small subwoofer. The bass is very tight, but doesn't slap. It's very clearly a neutral sound signature.
       <br> <br>
       <strong>Drive:</strong> <br> It's a tight driving experience. The cabin is very quiet, even when on the highway. This car does not take bumps well. You can feel most bumps, but it's very comfortable on smooth roads. This is because of the 18 inch wheels and tight suspension. The automatic gear shift sometimes misses. It'll be very early or very late on the shifts, but there is a manual shift up/down mode. It zooms compared to other cars in it's category.
       <br> <br>
       <strong>Reliability:</strong> <br> It is a Mazda, so it is just below Toyota and Honda in terms of reliability. I get ~20 MPG with city driving. This is with the HVAC and speakers going at full blast. Maintienance is on the cheaper side. Maintains decent value over the years compared to most manufacturers.
       <br> <br>
       <strong>Conclusions:</strong> <br> A driver's car with a luxury design. The materials, design, and features makes it feel luxurious. The tight driving experience and lack of some driving features makes this a driver's car. This car is for a single person or a couple. It is a compact car at the end of the day. There is not enough space for a family. This is a great everyday sedan for a young person that loves premium materials and a premium driving experience.
+      <br> <br>
+      `
+    }
+  ],
+},
+{
+  id: '699',
+  type: 'Other',
+  name: 'Computer',
+  description: 'PC',
+  imgSrc: './assets/images/pc.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>THIS INFORMATION IS NOT CORRECT. CURRENT DATA IS ONLY A PLACEHOLDER UNTIL REAL DATA IS ENTERED IN.</strong>
+      <br> <br>
+      <strong>Case:</strong> <br> NZXT H10
+      <br> <br>
+      <strong>Power Supply:</strong> <br> Corsair 850W Gold
+      <br> <br>
+      <strong>Motherboard:</strong> <br> ASUS Z170
+      <br> <br>
+      <strong>Storage:</strong> <br> Samsung EVO 850 500GB <br> Crucial 1TB m.2 NVME 3rd gen
+      <br> <br>
+      <strong>RAM:</strong> <br>
+      <br> <br>
+      <strong>CPU:</strong> <br> Intel i7 6700k
+      <br> <br>
+      <strong>CPU Cooler:</strong> <br>
+      <br> <br>
+      <strong>GPU:</strong> <br> NVIDIA GTX 980ti
       <br> <br>
       `
     }
