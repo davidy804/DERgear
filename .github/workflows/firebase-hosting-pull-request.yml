@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DERGEAR_10587 }}'
-          projectId: dergear-10587
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DERGEARSITE }}'
+          projectId: dergearsite
