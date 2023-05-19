@@ -701,14 +701,14 @@ fieldset:disabled .btn {
 
     .project .projectList .box {
         position: relative;
-        max-width: 350px;
+        max-width: 275px;
         min-width: initial;
-        width: 350px;
-        height: 350px;
+        width: 275px;
+        height: 275px;
     }
 
     .project .projectList .box .imgBx {
-        height: 350px;
+        height: 275px;
     }
 
     .linksText {

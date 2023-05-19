@@ -867,7 +867,7 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>THIS INFORMATION IS NOT CORRECT. CURRENT DATA IS ONLY A PLACEHOLDER UNTIL REAL DATA IS ENTERED IN.</strong>
       <br> <br>
-      <strong>Case:</strong> <br> NZXT H10
+      <strong>Case:</strong> <br> NZXT H440
       <br> <br>
       <strong>Power Supply:</strong> <br> Corsair 850W Gold
       <br> <br>
