@@ -118,7 +118,7 @@ section {
 
 .scroll-down:hover {
     transform: scale(1.2);
-    transition: ease-in-out 150ms;
+    transition: ease-in-out 100ms;
 }
 
 .scroll-up {
@@ -156,7 +156,7 @@ section {
 
 .scroll-up:hover {
     transform: scale(1.2);
-    transition: ease-in-out 150ms;
+    transition: ease-in-out 100ms;
     opacity: 1;
 }
 
@@ -255,7 +255,7 @@ section {
 .project .projectList .box:hover {
     box-shadow: 0 0 15px #fff;
     transform: scale(1.07);
-    transition: ease-in-out 150ms;
+    transition: ease-in-out 100ms;
 }
 
 .project .projectList .box .imgBx {
@@ -324,7 +324,7 @@ section {
 }
 
 .main .mainList .box>* {
-    transition: ease-in-out 150ms;
+    transition: ease-in-out 100ms;
 }
 
 .main .mainList .box>*:hover {
@@ -520,7 +520,7 @@ fieldset:disabled .btn {
     color: #fff;
     background-color: #4d4d4d;
     transform: scale(1.1);
-    transition: ease-in-out 150ms;
+    transition: ease-in-out 100ms;
 }
 
 .btn-check:focus+.btn-primary,
