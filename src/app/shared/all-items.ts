@@ -468,6 +468,29 @@ export const AllItems: MainModel[] = [
   ],
 },
 {
+  id: '317',
+  type: 'Audio',
+  name: 'Zero: RED',
+  description: 'Warm Tilt / IEM',
+  imgSrc: './assets/images/zerored.png',
+  details: [
+    {
+      imgSrc: `
+      <strong>Curve:</strong> <br>
+      <br> <br>
+      <strong>Sound Quality:</strong> <br>
+      <br> <br>
+      <strong>Comfort:</strong> <br>
+      <br> <br>
+      <strong>Conclusions:</strong> <br>
+      <br> <br>`,
+      caption: `
+      <strong>*COMING SOON*<strong> <br> <br>
+      `
+    }
+  ],
+},
+{
   id: '318',
   type: 'Audio',
   name: 'Apple Airpods Pro 2',

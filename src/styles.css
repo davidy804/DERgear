@@ -272,6 +272,7 @@ section {
     align-items: center;
     position: absolute;
     bottom: 0;
+    background-color: #11111150;
 }
 
 .project .projectList .box .content h2 {
@@ -363,6 +364,7 @@ section {
     align-items: center;
     position: absolute;
     bottom: 0;
+    background-color: #11111150;
 }
 
 .main .mainList .box .content h2 {
