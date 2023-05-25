@@ -865,23 +865,21 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>THIS INFORMATION IS NOT CORRECT. CURRENT DATA IS ONLY A PLACEHOLDER UNTIL REAL DATA IS ENTERED IN.</strong>
-      <br> <br>
       <strong>Case:</strong> <br> NZXT H440
       <br> <br>
-      <strong>Power Supply:</strong> <br> Corsair 850W Gold
+      <strong>Power Supply:</strong> <br> Corsair Gold AX850
       <br> <br>
-      <strong>Motherboard:</strong> <br> ASUS Z170
+      <strong>Motherboard:</strong> <br> ASUS Z170-A
       <br> <br>
       <strong>Storage:</strong> <br> Samsung EVO 850 500GB <br> Crucial 1TB m.2 NVME 3rd gen
       <br> <br>
-      <strong>RAM:</strong> <br>
+      <strong>RAM:</strong> <br> Crucial Ballistix 16GB
       <br> <br>
-      <strong>CPU:</strong> <br> Intel i7 6700k
+      <strong>CPU:</strong> <br> Intel i7 6700K
       <br> <br>
-      <strong>CPU Cooler:</strong> <br>
+      <strong>CPU Cooler:</strong> <br> Cryorig H7
       <br> <br>
-      <strong>GPU:</strong> <br> NVIDIA GTX 980ti
+      <strong>GPU:</strong> <br> NVIDIA GTX 980 Ti
       <br> <br>
       `
     }
