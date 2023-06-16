@@ -24,7 +24,7 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>Specs:</strong> <br> Sensor: 3395 <br> Switches: Huano Pinks with Blue Dots <br> Weight: 49g <br> Battery: <br>
       <br> <br>
-      <strong>Shape:</strong> <br> An XM1 clone? It's very similar to the aggressive claw shape of the XM1. The hump is more towards the center of the mouse and the sides are not flared out as much. This makes it a little more versatile. Relaxed claw, palm claw, and knuckle claw is much more comfortable because of these differences. The shape is small, so if you have larger hands, fingertip works well. The sides are slightly angled and wide, so it's not the most comfortable to fingertip. The shape works well for me when I want a stable grip.
+      <strong>Shape:</strong> <br> An XM1 clone? It's very similar to the claw shape of the XM1. The hump is more towards the center of the mouse and the sides are angled more. I actually like this shape more than the XM1. It locks my hand in position very comfortably. The shape is small, so if you have larger hands, fingertip works well. The sides are slightly angled and wide, so it's not the most comfortable to fingertip. The shape works well for me when I want a stable grip.
       <br> <br>
       <strong>Buttons:</strong> <br> The M1 and M2 buttons feel premium. They have a soft thuddy sound with a heavy tactile feedback. On the return, the mouse clicks feel like they are going to bounce out of the mouse. Maybe that's because the springs are long and the mouse is very light, I'm not sure. It does feel good though. The side buttons are similar to the M1 and M2, very good. The scroll wheel is surprisingly good. The rubber material is comfortable and grippy. There are very defined bumps and the button is heavy. The button press down is heavy, which is fine, but the return is light and barely noticable. I'm not a fan of it because it doesn't give me the tactile feedback that the button has returned, which makes it hard to spam. The buttons in general feel like quality heavy switches.
       <br> <br>
@@ -318,7 +318,7 @@ export const AllItems: MainModel[] = [
   id: '296',
   type: 'Keyboard',
   name: 'IV Works AV4',
-  description: 'KTT Roses / NicePBT Beach Day',
+  description: 'KTT Roses / OTC Modo Light',
   imgSrc: './assets/images/av4.png',
   details: [
     {
@@ -328,7 +328,7 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Switches:</strong> <br> KTT Roses (Stock)
       <br> <br>
-      <strong>Keycaps:</strong> <br> NicePBT Beach Day
+      <strong>Keycaps:</strong> <br> OTC Modo Light
       <br> <br>
       <strong>Sound Profile:</strong> <br> Loud, Clacky, Poppy
       <br> <br>
@@ -417,7 +417,7 @@ export const AllItems: MainModel[] = [
       imgSrc: '',
       caption: `
       <strong>Not a review, just some thoughts:</strong><br>
-      I use it as a media player. It's only programmable through QMK, which is okay. I wish it could be programmed through VIA. The RGB is very nice. It's very bright and has a lot of different modes. I'd use it if I liked RGB. The keycaps and layout feel nice. I don't have a use for half the buttons. It is nice having dedicated buttons for media keys, especially because I switch keyboards with different layouts so often. I won this from a giveaway. I would not purchase this on my own. $80 for media keys? If I used macros or streamed, then it might be worth it. But then there are products like the Elgado Stream Deck, which looks better and has more functionality.
+      I use it as a media player. It's only programmable through QMK, which is fine. I wish it could be programmed through VIA. The RGB is very nice. It's very bright and has a lot of different modes. I'd use it if I liked RGB. The keycaps and layout feel nice. I don't have uses for half the buttons. It is nice having dedicated buttons for media keys, especially because I switch keyboards with different layouts so often. I won this from a giveaway. I would not purchase this on my own. $80 for media keys? If I used macros or streamed, then it might be worth it. But then there are products like the Elgado Stream Deck, which looks better and has more functionality.
       `
     }
   ],
@@ -844,6 +844,8 @@ export const AllItems: MainModel[] = [
       <strong>Comfort:</strong> <br> Size C is too large for me, but when sitting properly, it is comfortable. It's not a cushiony comfortable, but your body just fits well into the mesh.
       <br> <br>
       <strong>Features:</strong> <br> Lots of adjustability. Height adjust. Locking mechanism for leaning back. Varying weight for the lean back. Arms adjust every way except forward and back. Lumbar support can be adjusted.
+      <br> <br>
+      <strong>Durability:</strong> <br> This thing is unbreakable. I bought a 20 year old chair used and have been using it daily for a couple years. It doesn't creak or anything. The only thing that is not 100% is the locking and tension feature for leaning back. The lock very rarely pops out when you move agressively. Something this old will wear down eventually. It can be replaced though. The tension will slowly decrease after time. Personally, the tension decrease is noticable after about a month or two of use, but I just rewind that bad boy and we gucci. This chair old but sturdy like tree.
       <br> <br>
       <strong>Conclusions:</strong> <br> A comfortable, premium, office chair best used for productivity. This chair almost forces you to sit properly. Because of this, it's best used for productivity. It keeps you comfortable while you are working. This is not a lounge chair. It not comfortable when sitting in improper positions. There are better chairs for lounging. (Ex: Secret Lab) This chair is not cushioned, has no headrest, and forces your legs and back in a proper seating position. This is an amazing productivity chair.
       <br> <br>

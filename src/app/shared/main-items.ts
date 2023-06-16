@@ -31,7 +31,7 @@ export const MainItems: MainModel[] = [
   id: '296',
   type: 'Keyboard',
   name: 'IV Works AV4',
-  description: 'KTT Roses / NicePBT Beach Day',
+  description: 'KTT Roses / OTC ModoLight',
   imgSrc: './assets/images/av4.png',
   details: [
     {
