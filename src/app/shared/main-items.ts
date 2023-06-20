@@ -54,11 +54,11 @@ export const MainItems: MainModel[] = [
   ],
 },
 {
-  id: '309',
+  id: '317',
   type: 'Headphones',
-  name: 'Audio Technica ATH-AD900x',
-  description: 'Warm / Open',
-  imgSrc: './assets/images/ad900x.png',
+  name: 'Truthear x Crinacle ZERO:RED',
+  description: 'Warm Tilt / IEM',
+  imgSrc: './assets/images/zerored.png',
   details: [
     {
       imgSrc: '',

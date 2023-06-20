@@ -470,22 +470,21 @@ export const AllItems: MainModel[] = [
 {
   id: '317',
   type: 'Audio',
-  name: 'Zero: RED',
+  name: 'Truthear x Crinacle ZERO:RED',
   description: 'Warm Tilt / IEM',
   imgSrc: './assets/images/zerored.png',
   details: [
     {
-      imgSrc: `
-      <strong>Curve:</strong> <br>
-      <br> <br>
-      <strong>Sound Quality:</strong> <br>
-      <br> <br>
-      <strong>Comfort:</strong> <br>
-      <br> <br>
-      <strong>Conclusions:</strong> <br>
-      <br> <br>`,
+      imgSrc: '',
       caption: `
-      <strong>*COMING SOON*<strong> <br> <br>
+      <strong>Curve:</strong> <br> Warm Tilt
+      <br> <br>
+      <strong>Sound Quality:</strong> <br> Great tonality. With the bass boost adapter, it slams. Without the adapter, it is clean and balanced. The double driver design is apparent when listening to these. The lows are impressive. The mids and highs are not offensive.
+      <br> <br>
+      <strong>Comfort:</strong> <br> The eartips isolate very well without feeling tight. The wire is extremely flexible and light. They wrap around my ears very comfortably. They also stay in place despite being very comfortable.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> The ZERO:RED feels like a premium product at a budget price. The unboxing experience is very nice. Quality of materials and design is mid-level. Much better than budget, but not quite top-tier. For the price, I can't recommend these enough.
+      <br> <br>
       `
     }
   ],
@@ -518,14 +517,20 @@ export const AllItems: MainModel[] = [
   id: '319',
   type: 'Audio',
   name: 'KZ ZS10 Pro',
-  description: 'V-Shape / IEM',
+  description: 'Neutral / IEM',
   imgSrc: './assets/images/zs10pro.png',
   details: [
     {
       imgSrc: '',
       caption: `
-      <strong>Not a review, just some thoughts:</strong><br>
-      It has decent quality for an IEM. The soundstage is small. The clarity is not there. The lows are not there. The highs are a bit piercing. The mids are fine. Overall, it is a decent sounding IEM. The problem with IEMs are that they just sound a little smushed, like all frequencies come from the same plane. It's hard to listen to when there are lots of sounds going on at once. These are very sensitive. Which means if there is a little bit of interference, you'll hear some static.
+      <strong>Curve:</strong> <br> Neutral
+      <br> <br>
+      <strong>Sound Quality:</strong> <br> Sounds small. The clarity and separation is lacking. There is very little bass. The highs are piercing at times. Sounds get mushed together when there is a lot going on. It sounds like all frequencies are coming from the same plane.
+      <br> <br>
+      <strong>Comfort:</strong> <br> The eartips are loose and thin. They can be worn for long hours. The wire is stiff and the ear loop is not shaped very well for my ears. The loops don't feel like they do much for me, as they are stiff and too big.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> The ZS10 Pros are outdated. They were good value when cheap IEMs were getting popular. They sound okay if are you not multitasking. They are very sensitive, which means you may hear static if there is a bit of interference. Cheap IEMs are getting very good. The ZS10 Pro was one of the first IEMs that started the great sounding, cheap IEM market. The current market has better options for cheap IEMs.
+      <br> <br>
       `
     }
   ],
