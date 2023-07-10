@@ -22,7 +22,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Specs:</strong> <br> Sensor: 3395 <br> Switches: Huano Pinks with Blue Dots <br> Weight: 49g <br> Battery: <br>
+      <strong>Specs:</strong> <br> Sensor: 3395 <br> Switches: Huano Pinks with Blue Dots <br> Weight: 49g <br> Battery: 70 hours
       <br> <br>
       <strong>Shape:</strong> <br> An XM1 clone? It's very similar to the claw shape of the XM1. The hump is more towards the center of the mouse and the sides are angled more. I actually like this shape more than the XM1. It locks my hand in position very comfortably. The shape is small, so if you have larger hands, fingertip works well. The sides are slightly angled and wide, so it's not the most comfortable to fingertip. The shape works well for me when I want a stable grip.
       <br> <br>
@@ -72,7 +72,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Specs:</strong> <br>
+      <strong>Specs:</strong> <br> Sensor: 3359 <br> Switches: Razer Optical <br> Weight: 61g
       <br> <br>
       <strong>Shape:</strong> <br> This is the god shape. For small hands, every grip feels comfortable. The mouse is very narrow. I like this, but someone with larger hands may not. For fingertip, this mouse shape is perfect.
       <br> <br>
@@ -97,7 +97,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Specs:</strong> <br>
+      <strong>Specs:</strong> <br> Sensor: 3360 <br> Weight: 58g
       <br> <br>
       <strong>Shape:</strong> <br> Same shape as the Finalmouse Sunset, except the Air58 has holes on the sides. It is a great shape for large hands. Difficult to claw, but easy to palm and fingertip because of its flat sides and low back hump.
       <br> <br>
@@ -122,7 +122,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Specs:</strong> <br>
+      <strong>Specs:</strong> <br> Sensor: HERO <br> Weight: 85g
       <br> <br>
       <strong>Shape:</strong> <br> This is the classic egg shape. The sides are sloped inwards, which I do not like. It makes fingertipping this mouse hard.
       <br> <br>
@@ -147,7 +147,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Specs:</strong> <br>
+      <strong>Specs:</strong> <br> Sensor: 3360 <br> Weight: 67g
       <br> <br>
       <strong>Shape:</strong> <br> Great shape for large hands. It's large size makes playing any sensitivity very easy because it's easy to be stable. Slight horizontal grooves on flat vertical sides makes this easy to palm and fingertip. Clawing this mouse is difficult unless you have very large hands. Having no holes on the sides makes this mouse very comfortable.
       <br> <br>
@@ -172,7 +172,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Specs:</strong> <br>
+      <strong>Specs:</strong> <br> Sensor: HERO <br> Weight: 121g
       <br> <br>
       <strong>Shape:</strong> <br> This ergo shape is loved for productivity. Despite its large size, it feels comfortable with small hands.
       <br> <br>
@@ -198,8 +198,6 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Material:</strong> <br>
-      <br> <br>
       <strong>Texture:</strong> <br> Smooth
       <br> <br>
       <strong>Performance:</strong> <br> Medium static dynamic friction. Works with all games and sensitivities.
@@ -223,8 +221,6 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Material:</strong> <br>
-      <br> <br>
       <strong>Texture:</strong> <br> Rough
       <br> <br>
       <strong>Performance:</strong> <br> Low static and medium dynamic friction. Works with most games and sensitivities. Slower paced games like tac shooters are harder to make this mousepad work. Good mouse control is important with this mousepad. The micro movements are effortless because of the low static friction. This may cause instability and inconsistency if your mouse control is not good.
@@ -248,8 +244,6 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Material:</strong> <br>
-      <br> <br>
       <strong>Texture:</strong> <br> Rough? Not rough, but not smooth. Will not iritate skin, but not smooth like cloth.
       <br> <br>
       <strong>Performance:</strong> <br> Extremely low static and dynamic friction. For accurate tracking/flicking, this mousepad is not it. It just zooms.
@@ -273,8 +267,6 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Material:</strong> <br> Codura
-      <br> <br>
       <strong>Texture:</strong> <br> Very rough
       <br> <br>
       <strong>Performance:</strong> <br> Low static and medium dynamic friction. Works well with most games. Low static friction requires good mouse control especially with higher sensitivity. The dynamic friction makes the mousepad perform more like a slower pad.
@@ -298,8 +290,6 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Material:</strong> <br> Cloth
-      <br> <br>
       <strong>Texture:</strong> <br> Smooth
       <br> <br>
       <strong>Performance:</strong> <br> High static and dynamic friction. Slow pad that gets even slower after water just looks at it. It feels great to use until humidity touches it. Humidity causes slow spots in this pad.
@@ -576,19 +566,19 @@ export const AllItems: MainModel[] = [
   id: '498',
   type: 'Monitor',
   name: 'Lenovo Legion Y25-25',
-  description: '1080p / 240hz',
+  description: '1080p / 240Hz',
   imgSrc: './assets/images/y25.png',
   details: [
     {
       imgSrc: '',
       caption: `
-      <strong>Specs:</strong> <br>
+      <strong>Specs:</strong> <br> 1080p 240Hz IPS Panel
       <br> <br>
-      <strong>Performance:</strong> <br> 240hz in comparison to 144hz is noticable. It feels like a 50% increase in smoothness. For reference, 144hz to 60hz feels like a 200% increase in smoothness. This is assuming you are getting enough frames to make use of the hertz. The colors on this IPS monitor are very vibrant. It gets very bright.
+      <strong>Performance:</strong> <br> 240Hz in comparison to 144Hz is noticable. It feels like a 50% increase in smoothness. For reference, 144Hz to 60Hz feels like a 200% increase in smoothness. This is assuming you are getting enough frames to make use of the hertz. The colors on this IPS monitor are very vibrant. It gets very bright.
       <br> <br>
       <strong>Quality:</strong> <br> My monitor has a burn in issue. On certain applications or webpages, the monitor starts to LCD burn in. Lines start to burn into the display. A fix is to play a video for a few minutes to get rid of the burn in. This happens more often the brighter the monitor is. The monitor stand is sturdy and very adjustable.
       <br> <br>
-      <strong>Conclusion:</strong> <br> Good specs, bad monitor. It has all the features of a great monitor; IPS, 240hz, and a good stand. The burn in issue is pretty annoying. It doesn't happen all the time, but when it does, it makes me want to buy a new monitor. The colors and brightness is too much for me. I prefer my Dell monitor's colors and brightness levels. The brightness of this monitor caused headaches for me. It would strain my eyes so much that I would get headaches every time I used it. I had to lower the brightness to ~20% and contrast to ~30%. I basically made this IPS look like a TN panel.
+      <strong>Conclusion:</strong> <br> Good specs, bad monitor. It has all the features of a great monitor; IPS, 240Hz, and a good stand. The burn in issue is pretty annoying. It doesn't happen all the time, but when it does, it makes me want to buy a new monitor. The colors and brightness is too much for me. I prefer my Dell monitor's colors and brightness levels. The brightness of this monitor caused headaches for me. It would strain my eyes so much that I would get headaches every time I used it. I had to lower the brightness to ~20% and contrast to ~30%. I basically made this IPS look like a TN panel.
       `
     }
   ],
@@ -597,24 +587,47 @@ export const AllItems: MainModel[] = [
   id: '499',
   type: 'Monitor',
   name: 'Dell S2716DG',
-  description: '1440p / 144hz',
+  description: '1440p / 144Hz',
   imgSrc: './assets/images/S2716DG.png',
   details: [
     {
       imgSrc: '',
       caption: `
-      <strong>Specs:</strong> <br>
+      <strong>Specs:</strong> <br> 1440p 144Hz TN Panel
       <br> <br>
       <strong>Performance:</strong> <br> 1440p is so nice. You may think 1080p is enough, but that is because you haven't experienced 1440p. 1080p feels like you're using your Grandma's computer. 1440p gives so much room for productivity and media consumption. 144hz is good enough for most people.
       <br> <br>
       <strong>Quality:</strong> <br> My first monitor's LCD started to peel from the top after about 2 years. Dell sent a replacement and it has been working flawlessly for ~4+ years. The stand is solid with great adustability.
       <br> <br>
-      <strong>Conclusion:</strong> <br> This is probably my favorite purchase in all my gear. I spent $500 for this monitor and I'd do it again. (You can get this monitor for a lot less nowadays) I went from 1080p 60hz to 1440p 144hz. The upgrade was huge. I have a 1080p 240hz monitor, and the lower resolution feels bad. 240hz compared to 144hz is not that big of a deal for me, despite playing mostly competitive games. My PC does not maintain 240 fps on all games, so I do not get 240hz all the time anyways. Dell has great colors and quality. This is a TN panel, but I like this monitor better than an IPS. I'd recommend this monitor or something with similar specs and quality to anyone.
+      <strong>Conclusion:</strong> <br> This is probably my favorite purchase in all my gear. I spent $500 for this monitor and I'd do it again. (You can get this monitor for a lot less nowadays) I went from 1080p 60Hz to 1440p 144Hz. The upgrade was huge. I have a 1080p 240Hz monitor, and the lower resolution feels bad. 240Hz compared to 144Hz is not that big of a deal for me, despite playing mostly competitive games. My PC does not maintain 240 fps on all games, so I do not get 240Hz all the time anyways. Dell has great colors and quality. This is a TN panel, but I like this monitor better than an IPS. I'd recommend this monitor or something with similar specs and quality to anyone.
       `
     }
   ],
 },
 //////////********** Watches **********//////////
+{
+  id: '796',
+  type: 'Watches',
+  name: 'Seiko 5 Sports SRPK31',
+  description: 'Automatic / Dive',
+  imgSrc: '/assets/images/srpk31.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Specs:</strong> <br> Model: SRPK31<br>Case Diameter: 38mm<br>Lug to Lug: 44.2mm<br>Lug Width: 20mm<br>Material: Stainless steel case with Hardlex crystal
+      <br> <br>
+      <strong>Movement:</strong> <br> Automatic 4R36
+      <br> <br>
+      <strong>Dial:</strong> <br> Cream or light beige dial that resembles the SKX with its circle indices. The hands are simple, thick arrows. The seconds hand has a circle counterweight that matches the indices. The lume is very bright and easily readable. The day and date are black text on white with the exception of the weekends. Saturday is light blue and Sunday is red. The bezel is greyish taupe color.
+      <br> <br>
+      <strong>Band:</strong> <br> Oyster bracelet with folded links and a quick release clasp. It is nothing special, but it is not the worst bracelet I've used. It doesn't squeak or catch my arm hairs. I would swap it out with something that will match the dial. I am currently using a khaki perlon strap.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> A small versatile dive watch. It is basically a 38mm cream dial SKX. It is not a true dive watch as it is only 100m water resistant with no screw down crown. This watch is a simple small dive watch that looks great on the wrist. It looks playful while still being sophisticated. It can be worn as a dress watch because of its small size. It is extremely versatile.
+      `
+    }
+  ],
+},
 {
   id: '797',
   type: 'Watches',
@@ -625,13 +638,13 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Specs:</strong> <br> Model: <br>Case Diameter: <br>Lug to Lug: <br>Lug Width: <br>Material:
+      <strong>Specs:</strong> <br> Model: RA-AA0004E19A<br>Case Diameter: 41.8mm<br>Lug to Lug: 46.8mm<br>Lug Width: 22mm<br>Material: Stainless steel case with sapphire crystal
       <br> <br>
-      <strong>Movement:</strong> <br> Automatic
+      <strong>Movement:</strong> <br> Automatic F6992
       <br> <br>
       <strong>Dial:</strong> <br> Beautiful dark green sunburst dial. Indoors the watch basically looks black. In bright lighting or when the sun is shining, the green starts to show and it plays with the light. The combination of baton numbers and arrow hands looks okay. The red arrow on the seconds hand is a nice touch. The day-date feature is nice to have and looks fine. The bezel is curved in a way where it is a bit hard to grip and turn. The bezel design makes this watch wear smaller than a normal diver.
       <br> <br>
-      <strong>Band:</strong> <br> Simple metal band. Not particularly good. Mine is squeaky and catches on my arm hair. Switching the band is highly recommended. I am currently using a grey NATO strap.
+      <strong>Band:</strong> <br> Oyster metal bracelet. Not particularly good. Mine is squeaky and catches on my arm hair. Switching the band is highly recommended. I am currently using a grey NATO strap.
       <br> <br>
       <strong>Conclusions:</strong> <br> An incredible value dive watch. It has all the features you'd want for a pretty low price. A solid automatic movement, sapphire crystal, great water resistance, and interesting dial. It wears small because of it's lug to lug size and the curved bezel and case design. The band feels like the only thing Orient did not put time into, but that is easily fixable. The Orient Kamasu is a feature heavy diver with incredible value.
       `
@@ -641,7 +654,7 @@ export const AllItems: MainModel[] = [
 {
   id: '798',
   type: 'Watches',
-  name: 'Seiko "Urushi"',
+  name: 'Seiko "Urushi" SARX029',
   description: 'Automatic / Dress',
   imgSrc: '/assets/images/sarx029.png',
   details: [
@@ -650,7 +663,7 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>Specs:</strong> <br> Model: SARX029<br>Case Diameter: 40.5mm<br>Lug to Lug: 47mm<br>Lug Width: 20mm<br>Material: Stainless steel case with sapphire crystal
       <br> <br>
-      <strong>Movement:</strong> <br> Automatic
+      <strong>Movement:</strong> <br> Automatic 6R15
       <br> <br>
       <strong>Dial:</strong> <br> Black urushi lacquer with date window. Silver roman numerals with gold leaf hands and cresent moon counterweight.
       <br> <br>
@@ -671,7 +684,7 @@ export const AllItems: MainModel[] = [
     {
       imgSrc: '',
       caption: `
-      <strong>Specs:</strong> <br> Case Diameter: <br>Lug to Lug: <br>Lug Width: <br>Material:
+      <strong>Specs:</strong> <br> Case Diameter: 40mm <br>Lug to Lug: 47mm<br>Lug Width: 20mm<br>Material: Mineral glass
       <br> <br>
       <strong>Movement:</strong> <br> Quartz
       <br> <br>
@@ -713,7 +726,7 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>Material:</strong> <br> Stainless Steel
       <br> <br>
-      <strong>Size:</strong> <br> 3.2 inch blade / x inch open / x inch closed
+      <strong>Size:</strong> <br> 3.11 inch blade / 7.30 inch open / 4.20 inch closed
       <br> <br>
       <strong>Locking Action:</strong> <br> Button Lock
       <br> <br>
@@ -796,7 +809,7 @@ export const AllItems: MainModel[] = [
       caption: `
       <strong>Material:</strong> <br> Stainless Steel
       <br> <br>
-      <strong>Refills:</strong> <br>
+      <strong>Refills:</strong> <br> Schmidt easyFLOW 9000
       <br> <br>
       <strong>Action:</strong> <br> Bolt Action. It's very satisfying. It's placed perfectly for your right hand.
       <br> <br>
