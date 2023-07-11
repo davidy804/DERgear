@@ -608,7 +608,7 @@ export const AllItems: MainModel[] = [
 {
   id: '796',
   type: 'Watches',
-  name: 'Seiko 5 Sports SRPK31',
+  name: 'Seiko SRPK31',
   description: 'Automatic / Dive',
   imgSrc: '/assets/images/srpk31.png',
   details: [
@@ -654,7 +654,7 @@ export const AllItems: MainModel[] = [
 {
   id: '798',
   type: 'Watches',
-  name: 'Seiko "Urushi" SARX029',
+  name: 'Seiko SARX029',
   description: 'Automatic / Dress',
   imgSrc: '/assets/images/sarx029.png',
   details: [
