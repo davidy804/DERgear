@@ -331,7 +331,7 @@ export const AllItems: MainModel[] = [
   id: '297',
   type: 'Keyboard',
   name: 'WindX65',
-  description: 'Gateron Box Pinks / NicePBT Classic Beige',
+  description: 'Gateron Box Pinks / PBT Heisenberg',
   imgSrc: './assets/images/windx65.png',
   details: [
     {
@@ -341,7 +341,7 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Switches:</strong> <br> Gateron Box Pinks (Lubed and Filmed)
       <br> <br>
-      <strong>Keycaps:</strong> <br> NicePBT Classic Beige
+      <strong>Keycaps:</strong> <br> PBT Heisenberg
       <br> <br>
       <strong>Sound Profile:</strong> <br> Quiet, Poppy, Marbly
       <br> <br>
@@ -354,7 +354,7 @@ export const AllItems: MainModel[] = [
   id: '298',
   type: 'Keyboard',
   name: 'WS Ikki68 Aurora R2',
-  description: 'WS Silent Linears / DMK Ghost',
+  description: 'WS Silent Linears / NicePBT Classic Beige',
   imgSrc: './assets/images/ikki68.png',
   details: [
     {
@@ -364,7 +364,7 @@ export const AllItems: MainModel[] = [
       <br> <br>
       <strong>Switches:</strong> <br> Wuque Studios Silent Linears (Stock)
       <br> <br>
-      <strong>Keycaps:</strong> <br> Domikey Ghost
+      <strong>Keycaps:</strong> <br> NicePBT Classic Beige
       <br> <br>
       <strong>Sound Profile:</strong> <br> Silent, Silicone, Raindrops
       <br> <br>
@@ -413,6 +413,28 @@ export const AllItems: MainModel[] = [
   ],
 },
 //////////********** Audio **********//////////
+{
+  id: '307',
+  type: 'Audio',
+  name: 'Creative Aurvana Live! SE',
+  description: 'Boomy / Closed',
+  imgSrc: './assets/images/cal.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Curve:</strong> <br> Very warm
+      <br> <br>
+      <strong>Sound Quality:</strong> <br> Bass is boomy but good quality. It sounds like you are in an open room because of the boom. It still sounds like a closed-back headphone though. The mids and highs aren't too drowned out by the bass, but there is no character outside of the bass. The mids and treble exist, but the bass is so boomy and prominent that it is all you can focus on.
+      <br> <br>
+      <strong>Comfort:</strong> <br> Fairly comfortable, but can be fatiguing after long hours. The earcups are pretty small, they barely fit my ears and I have small ears. The headband pad is thin and something snags my hair at times. For its price, it's a comfortable pair of headphones.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> The value for the bass is amazing. I got these for about $30. It is not the most balanced and high quality, but this is great for situations where you want to hear boomy bass. It is not like your average headphones. The mids and treble are so weird sounding when you first put them on. The mids and treble just exists, it surprised me how bland everything but the bass sounded.
+      <br> <br>
+      `
+    }
+  ],
+},
 {
   id: '308',
   type: 'Audio',
@@ -606,6 +628,52 @@ export const AllItems: MainModel[] = [
 },
 //////////********** Watches **********//////////
 {
+  id: '794',
+  type: 'Watches',
+  name: 'Casio "PRX"',
+  description: 'Quartz / Integrated Bracelet',
+  imgSrc: '/assets/images/casioprx.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Specs:</strong> <br> Model: Casio MTP-B145D-4AVEF<br>Case Diameter: 35mm<br>Lug to Lug: 39mm<br>Lug Width: 18mm<br>Material: Stainless steel case and bracelet with mineral crystal
+      <br> <br>
+      <strong>Movement:</strong> <br> Quartz
+      <br> <br>
+      <strong>Dial:</strong> <br> Sunburst salmon pink dial with bar indices with grey text
+      <br> <br>
+      <strong>Band:</strong> <br> Stainless steel integrated bracelet that easily tugs arm hairs
+      <br> <br>
+      <strong>Conclusions:</strong> <br> The dial and bracelet design resembles the Tissot PRX. This is Casio's budget homage. It is a beautiful watch at a reasonable price. (~$80) You get Casio quality with a striking design. This is a fashion watch especially with all the different colors, specifically the tiffany blue variant. The salmon color with the grey text is so subtle and fun. The bracelet feels cheap and tugs on my arm hairs. The watch is very thin and small, so it is very versatile and comfortable. (Other than the hair tugs) It is a very pretty watch at a budget price.
+      `
+    }
+  ],
+},
+{
+  id: '795',
+  type: 'Watches',
+  name: 'Casio "Royale"',
+  description: 'Digital / GMT',
+  imgSrc: '/assets/images/royale.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Specs:</strong> <br> Model: AE1200WH-1A<br>Case Diameter: 41.8mm<br>Lug to Lug: 45mm<br>Lug Width: 18mm<br>Material: Resin
+      <br> <br>
+      <strong>Movement:</strong> <br> Quartz digital
+      <br> <br>
+      <strong>Dial:</strong> <br> Digital time with sweeping seconds and world map used for GMT functions
+      <br> <br>
+      <strong>Band:</strong> <br> Resin band that matches case. Integrated band style.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> This is named Casio Royale because it resembles the Seiko G757 that was worn in a James Bond movie. It is very functional with GMT, calendar, stopwatch, timer, alarm, and 'flashlight' features. It is fairly durable with 100M water resistance because of its resin design. This is an amazing beater watch. It is so functional with a slim design at an insane price point. (~$20)
+      `
+    }
+  ],
+},
+{
   id: '796',
   type: 'Watches',
   name: 'Seiko SRPK31',
@@ -654,7 +722,7 @@ export const AllItems: MainModel[] = [
 {
   id: '798',
   type: 'Watches',
-  name: 'Seiko SARX029',
+  name: 'Seiko "Urushi"',
   description: 'Automatic / Dress',
   imgSrc: '/assets/images/sarx029.png',
   details: [
@@ -814,6 +882,64 @@ export const AllItems: MainModel[] = [
       <strong>Action:</strong> <br> Bolt Action. It's very satisfying. It's placed perfectly for your right hand.
       <br> <br>
       <strong>Conclusions:</strong> <br> A bolt action, stainless steel, premium pocket pen. It has a removable deep carry clip, which is how like to carry it. It writes well. The weight of the pen gives it a nice, heavy, swinging feeling when signing your signature. For ~$40, it is expensive for a pen, but compared to other bolt actions, this is worth it.
+      <br> <br>
+      `
+    }
+  ],
+},
+{
+  id: '559',
+  type: 'EDC',
+  name: 'Nite Ize DoohicKey+',
+  description: 'Stainless Steel / Multi-tool',
+  imgSrc: './assets/images/doohickey.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Material:</strong> <br> Stainless Steel
+      <br> <br>
+      <strong>Functions:</strong> <br> Phillips, flathead, ruler, wrench, bottle opener, serrated edge, scoring point, and nail puller
+      <br> <br>
+      <strong>Conclusions:</strong> <br> A $5 keychain multi-tool. It is always with you and so useful. It is so small and blends in with your keys. The best multi-tool because of its size.
+      <br> <br>
+      `
+    }
+  ],
+},
+{
+  id: '568',
+  type: 'EDC',
+  name: 'TomToc X-Pac Explorer-T21 Sling',
+  description: 'X-Pac / 4L Sling',
+  imgSrc: './assets/images/tomtocsling.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Material:</strong> <br> X-Pac VX21 with 500D Cordura and YKK Zippers
+      <br> <br>
+      <strong>Conclusions:</strong> <br> The material feels very premium. It has decent organization pockets and dividers. The orange interior helps you find items inside. The outer exterior is made of X-Pac while the part that touches your body is 500D Codura. It still is very waterproof, especially with the YKK zippers. It is a premium sling at budget price. (~$50)
+      <br> <br>
+      `
+    }
+  ],
+},
+{
+  id: '569',
+  type: 'EDC',
+  name: 'Able Carry Daily Plus',
+  description: 'X-Pac / 21L Backpack',
+  imgSrc: './assets/images/dailyplus.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Material:</strong> <br> X-Pac Exterior with YKK Zippers and Nylon straps
+      <br> <br>
+      <strong>Comfort:</strong> <br> The shoulder straps are padded and wide enough to not hurt your shoulders and thin enough to not be too bulky. The padding on your back is plush with mesh and alleys to increase breathability. The magnetic strap across your chest distributes the weight evenly so the bag does not feel as heavy as it is. It is extremely comfortable.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> Every day backpack made with premium materials. This backpack is padded and waterproof with lots of organization pockets. The backpack is able to stand on its own because of the A-Frame. There are nylon straps around the bottom of the bag that gives the bag some structure to maintain its shape. This ~$200 backpack is expensive, but it has incredible build quality with premium materials with a clean and minimal design.
       <br> <br>
       `
     }

@@ -184,6 +184,45 @@ export const MainItems: MainModel[] = [
   ],
 },
 {
+  id: '559',
+  type: 'Multi-tool',
+  name: 'Nite Ize DoohicKey+',
+  description: 'Stainless Steel / Multi-tool',
+  imgSrc: './assets/images/doohickey.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: ''
+    }
+  ],
+},
+{
+  id: '568',
+  type: 'Sling',
+  name: 'TomToc X-Pac Explorer-T21 Sling',
+  description: 'X-Pac / 4L Sling',
+  imgSrc: './assets/images/tomtocsling.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: ''
+    }
+  ],
+},
+{
+  id: '569',
+  type: 'Backpack',
+  name: 'Able Carry Daily Plus',
+  description: 'X-Pac / 21L Backpack',
+  imgSrc: './assets/images/dailyplus.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: ''
+    }
+  ],
+},
+{
   id: '318',
   type: 'Headphones',
   name: 'Apple Airpods Pro 2',
