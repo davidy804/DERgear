@@ -28,11 +28,11 @@ export const MainItems: MainModel[] = [
   ],
 },
 {
-  id: '296',
+  id: '294',
   type: 'Keyboard',
-  name: 'IV Works AV4',
-  description: 'KTT Roses / OTC ModoLight',
-  imgSrc: './assets/images/av4.png',
+  name: 'Neo Ergo',
+  description: 'HMX Macchiato / KKB Vibrato',
+  imgSrc: './assets/images/neoergo.png',
   details: [
     {
       imgSrc: '',
@@ -54,11 +54,11 @@ export const MainItems: MainModel[] = [
   ],
 },
 {
-  id: '317',
+  id: '315',
   type: 'Headphones',
-  name: 'Truthear x Crinacle ZERO:RED',
-  description: 'Warm Tilt / IEM',
-  imgSrc: './assets/images/zerored.png',
+  name: 'Simgot Supermix 4',
+  description: 'Warm Neutral / IEM',
+  imgSrc: './assets/images/supermix4.png',
   details: [
     {
       imgSrc: '',

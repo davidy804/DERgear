@@ -305,6 +305,56 @@ export const AllItems: MainModel[] = [
 },
 //////////********** Keyboards **********//////////
 {
+  id: '294',
+  type: 'Keyboard',
+  name: 'Neo Ergo',
+  description: 'HMX Macchiatos + KKB Vibrato',
+  imgSrc: './assets/images/neoergo.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Keyboard:</strong> <br> QwertyKeys Neo Ergo
+      <br> <br>
+      <strong>Configuration:</strong> <br> POM Plate <br> Gasket Mount
+      <br> <br>
+      <strong>Switches:</strong> <br> HMX Macchiatos (Stock)
+      <br> <br>
+      <strong>Keycaps:</strong> <br> Key Kobo Vibrato
+      <br> <br>
+      <strong>Sound Profile:</strong> <br> Loud, Clean
+      <br> <br>
+      <strong>Conclusions:</strong> <br> Solid sound and build quality with a polished design. A tented alice at this price (~$160) makes this the go-to recommendation if you want to try out the unique layout. I enjoy alice style layouts and the tented aspect is very comfortable, but I do make more mistakes on my right hand. This is a personal issue though, I have developed a typing style that works better with normal alice keyboards.
+      `
+    }
+  ],
+},
+{
+  id: '295',
+  type: 'Keyboard',
+  name: 'Neo80',
+  description: 'SP-Star Sacromentos / PBTFans WoB',
+  imgSrc: './assets/images/neo80.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Keyboard:</strong> <br> QwertyKeys Neo80
+      <br> <br>
+      <strong>Configuration:</strong> <br> Aluminum Plate <br> Brass Post Mount
+      <br> <br>
+      <strong>Switches:</strong> <br> SP-Star Sacromentos (Lubed)
+      <br> <br>
+      <strong>Keycaps:</strong> <br> PBTFans WoB
+      <br> <br>
+      <strong>Sound Profile:</strong> <br>
+      <br> <br>
+      <strong>Conclusions:</strong> <br>
+      `
+    }
+  ],
+},
+{
   id: '296',
   type: 'Keyboard',
   name: 'IV Works AV4',
@@ -414,6 +464,28 @@ export const AllItems: MainModel[] = [
 },
 //////////********** Audio **********//////////
 {
+  id: '306',
+  type: 'Audio',
+  name: 'Sony WH1000XM4',
+  description: 'Muddy / Noise Canceling',
+  imgSrc: './assets/images/xm4.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Curve:</strong> <br> Muddy
+      <br> <br>
+      <strong>Sound Quality:</strong> <br> It takes EQs very well, but I cannot find a good setting to make it sound good. It is very muddy and lacks clarity and detail.
+      <br> <br>
+      <strong>Comfort:</strong> <br> Very comfortable, cushiony and light
+      <br> <br>
+      <strong>Conclusions:</strong> <br> The noise cancellation is very good. It is very comfortable. The swipe controls are pretty easy to learn and get used to. The sound quality and tonality is not very good. Some $20 iems sound better than this, but that is not why you would get this headphone.
+      <br> <br>
+      `
+    }
+  ],
+},
+{
   id: '307',
   type: 'Audio',
   name: 'Creative Aurvana Live! SE',
@@ -474,6 +546,50 @@ export const AllItems: MainModel[] = [
       <strong>Comfort:</strong> <br> Very light and comfortable. The band has a firm and tight option. Personally the firm feels more comfortable and stays on my head for the most part. The stock pads are soft and light, but they are thin and get worn down easily. The Yaxi pads are bigger, thicker, and more comfortable.
       <br> <br>
       <strong>Conclusions:</strong> <br> The fun brother of the KSC75. This is basically a KSC75, but with more bass and less mids. It also comes with a surprisingly good band. Replacing the stock pads with Yaxi pads really does balance out the sound signature. It's also much more comfortable with the bigger and thicker pads. The Koss Porta Pro and KSC75 are the go to recommendation because of their cheap price and mid-fi level sound quality.
+      <br> <br>
+      `
+    }
+  ],
+},
+{
+  id: '315',
+  type: 'Audio',
+  name: 'Simgot Supermix 4',
+  description: 'Warm Neutral / IEM',
+  imgSrc: './assets/images/supermix4.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Curve:</strong> <br> Warm Neutral
+      <br> <br>
+      <strong>Sound Quality:</strong> <br> Extremely rich and detailed bass. The mids and highs are decent. They are overshadowed by the lows, but not bad in any way.
+      <br> <br>
+      <strong>Comfort:</strong> <br> Fairly comfortable because of the foam and silicone combination ear tips. They feel large because of the foam inserts, but are comfortable and give an amazing seal.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> These are very worth the price. The richness and clairity of these IEMS are clearly on another level compared to similarly priced options. This is on the top of the list when it comes to sound quality for me.
+      <br> <br>
+      `
+    }
+  ],
+},
+{
+  id: '316',
+  type: 'Audio',
+  name: 'Kefine Delci',
+  description: 'Balanced / IEM',
+  imgSrc: './assets/images/delci.png',
+  details: [
+    {
+      imgSrc: '',
+      caption: `
+      <strong>Curve:</strong> <br> Harman Neutral
+      <br> <br>
+      <strong>Sound Quality:</strong> <br> Decent tonality. Good everywhere, but does not shine anywhere at the same time.
+      <br> <br>
+      <strong>Comfort:</strong> <br> Very light, but I cannot get a good seal with them. They fall out or unseal constantly.
+      <br> <br>
+      <strong>Conclusions:</strong> <br> These are a good do everything IEM. They aren't offensive anywhere, but they are just so plain. They sound like the Zero:Reds, but less detail and less personality.
       <br> <br>
       `
     }
